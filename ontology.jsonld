@@ -1,0 +1,2049 @@
+[ {
+  "@id" : "http://purl.org/dc/elements/1.1/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/1_Coll_359_A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "1._Coll._359_A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/A0_hat_Quellenbeleg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Sublemma_RG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Quellenbeleg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Quellenbeleg"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Ablass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ablass"
+  }, {
+    "@language" : "la",
+    "@value" : "indulgentia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Gnadenerweis"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Abtei",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Abtei"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kloster"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Acquisti",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Acquisti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Acta_Miscellanea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Acta Misc. (RG V), AM (RG X)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Acta_Miscellanea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Fondo Concistoriale, Acta Miscellanea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG V, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Event"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Activitytyp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Activitytyp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Typ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Arten von Activity"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Akteur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Akteur"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Amt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Amt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Annatenregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "A"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Annatenregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Annatae"
+  }, {
+    "@language" : "la",
+    "@value" : "Libri obligationum annatarum"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VI, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Arch_Vat_Fondo_dell'Arch_di_Stato_1830",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Arch._Vat._Fondo_dell'Arch._di_Stato_1830"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Archivium_Arcis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "A. A."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Archivium_Arcis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio segreto Vaticano, Archivium Arcis"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Armarien",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Arm."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Armarien"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Armadi"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II, RG III, RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Bestandteil_Regest_RG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Bestandteil_Regest_RG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Regest besteht immer aus einem Header und einem Sublemma (online). Im physischen Buch wird die Trennung der beiden Teile i.d.R. durch einen Doppelpunkt gekennzeichnet."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Brevenregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "B"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Brevenregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Brevenminuten"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Bullenregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Bullenregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Barb_Lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Barb. lat. (RG VI, RG IX, RG X), Barb. lat. (RG VIII)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Barb._Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Biblioteca Vaticana, Codices Barberiniani latini"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I, RG VI, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Cappon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Cappon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Cappon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Biblioteca Apostolica Vaticana, Codices Capponiani"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Chig_lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Chig. lat. (RG V), Chigi (RG VIII), Cod. Chigi (RG IX, RG X)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Chig._lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Biblioteca Vaticana, Fondo Chigi (RG VIII, RG IX)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG V, RG VI, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Ottob_Lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Ottob. Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Ottob._Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Reg_Lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Reg. lat. (RG VI), Cod. Regin. lat. (RG IX)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Reg._Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Bibliotheca Vaticana. Codices Reginenses Latini (RG IX)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VI, RG IX"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Urbin_Lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Urbin. Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Urbin._Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Biblioteca Apostolica Vaticana, Codices Urbiniati Latini"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Cod_Vat_Lat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Cod. Vat. lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Cod._Vat._Lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Bibliotheca Vaticana, Codices Vaticani Latini (RG IX)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II, RG VI, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Codices_Palatini_latini",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Palat. lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Codices Palatini latini"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Biblioteca Vaticana, Codices Palatini latini"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Codices_Urbinates_latini",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Urb. lat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Codices_Urbinates_latini"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Biblioteca Vaticana, Codices Urbinates latini"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Concistoriale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Concistoriale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Concistoriale (Acta Miscellanea vol,1)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Dioezese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Diözese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirchliche_Verwaltungseinheit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Bistum"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Distributiones_bullarum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "DB"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Distributiones_bullarum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Diversa_Cameralia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "DC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Diversa_Cameralia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Diversa Cameralia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Divisionsregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Divisionsregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Domstift",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Domstift"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Stift"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Dublin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Dublin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Ein Event ist eine zeitlich ausgedehnte Entität, etwas, das stattfindet, aber nicht „existiert wie ein Objekt“. Wir lehnen uns hier an den Event-Begriff von CIDOC-CRM 7.3.1 an."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Florenz",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Florenz"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Fondo_Camerale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "FC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fondo_Camerale"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Fondo_Camerale_Primo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Fondo_Domenicani",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Fondo Dom."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fondo_Domenicani"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio segreto Vaticano, Fondo Domenicani"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Fondo_Veneto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Fondo Veneto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fondo_Veneto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio segreto Vaticano, Fondo Veneto"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Formatari",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Formatari"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Formatari (Fondo dell’Archivio di Stato)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Fundstelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fundstelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "de",
+    "@value" : "Quelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Fundstellen sind die Registerserien, aus denen sich die Inhalte der Regesten speisen und die in den RG-Bänden abgekürzt angegeben werden."
+  }, {
+    "@value" : "RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Gebaeude_Gebaeudeteil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Gebäude_Gebäudeteil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Objekt"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Geldzahlung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Gnadenerweis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Gnadenerweis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Activitytyp"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Header_RG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Header_RG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Bestandteil_Regest_RG"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Hospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "dom. hosp."
+  }, {
+    "@language" : "la",
+    "@value" : "domus hosp."
+  }, {
+    "@language" : "la",
+    "@value" : "hosp."
+  }, {
+    "@language" : "la",
+    "@value" : "hosp. paup."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Hospital"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirchliche_Institution"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "de",
+    "@value" : "Spital"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/IE_III",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "IE III"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "IE_III"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Florenz"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Florenz, Bibl. nazionale XIX 79"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG III"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Index_Cedularum_Consistorialium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Ind. Ced."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Index_Cedularum_Consistorialium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio segreto Vaticano, Index Cedularum Consistorialium"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Indici",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Indice (RG V), I (RG VII, RG VIII, RG IX)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Indici"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Indici"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Akteur"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine Institution ist eine strukturierte und rechtlich gefasste Einheit mit dauerhaftem Bestand und einem spezifischen kirchlichen und/oder administrativen Auftrag, die als juristische Person handeln kann."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Instrumenta_Miscellanea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "IM (RG V), Intr. Misc. (RG IX, RG X), Instrum. Miscellanea (RG II)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Instrumenta_Miscellanea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Instrumenta Miscellanea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II, RG IV, RG V, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Introitus_et_Exitus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "I. E. (RG I)"
+  }, {
+    "@value" : "IE"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Introitus_et_Exitus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Introitus et Exitus"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kammerregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Reg. Vat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kammerregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG III"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kapelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "capella"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kapelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirchliche_Institution"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine Kapelle ist ein kleinerer, meist von einer Kirche abhängigen Sakralraum, der für bestimmte liturgische Handlungen, private Andachten oder besondere Personengruppen bestimmt ist. Sie kann Teil einer größeren Kirche, eines Klosters, eines Spitals oder eines weltlichen Gebäudes (z. B. Schloss) sein oder auch frei stehen."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kirche",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "eccl."
+  }, {
+    "@language" : "la",
+    "@value" : "ecclesia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kirche"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirchliche_Institution"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine kirchliche Organisationseinheit, die mit einem Gebäude zusammenfällt. Sie ist meist mit Personal und Pfründen ausgestattet. Sie hat Rechte und Pflichten, v. a. in der Seelsorge der Gläubigen."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kirche_Gebaeude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kirche_Gebäude"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Objekt"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kirchliche_Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kirchliche_Institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Institution"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Eine kirchliche Institution ist eine dauerhaft bestehende, strukturierte und rechtlich handlungsfähige Einheit innerhalb der christlichen Kirche, die einem geistlichen Zweck dient"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kirchliche_Verwaltungseinheit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kirchliche Verwaltungseinheit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Verwaltungseinheit"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine von kirchlichen Autoritäten verwendete Raumeinteilung."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kloster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "mon."
+  }, {
+    "@language" : "la",
+    "@value" : "monasterium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kloster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirchliche_Institution"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Ein Kloster ist eine religiöse Gemeinschaft, in der Mönche oder Nonnen nach festen Regeln zusammenleben."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kloster_Gebaeudekomplex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kloster_Gebäudekomplex"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Objekt"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Klostergemeinschaft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "abb. etc. mon."
+  }, {
+    "@language" : "la",
+    "@value" : "prep. etc. mon."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Klostergemeinschaft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Personengruppe"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Die Klostergemeinschaft kann als Personengruppe im RG auftreten. Die Abkürzung lautet abb. etc. = abbas et conventus monasterii ..."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Klosterkapelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "capella"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Klosterkapelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kapelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "la",
+    "@value" : "RG IV 00778: Balduinus (de Wenden) prior mon. s. Michaelis Lunenborg. o. s. Ben. Verden. dioc. presb. decr. doct. de indulg. pro eccl. et capella b. Catherine virg. 29 dec. 1429 S 251 48v, L 295 10v."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kollektorie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "K"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kollektorie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Kommunregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kommunregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I, RG II, RG III"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Lateranregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "L (RG V, RG VI, RG VII, RG VIII, RG IX, RG X), Reg. Lat. (RG II, RG III)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Lateranregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Registra Lateranensia (RG V, RG VII, RG VIII)"
+  }, {
+    "@language" : "la",
+    "@value" : "Registra Lateranensia"
+  }, {
+    "@value" : "Archivio Segreto Vaticano, Registri Lateranensi (RG IX, RG X)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Libri_Formatarum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "F"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Libri_Formatarum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Libri Formatarum"
+  }, {
+    "@value" : "Liber Formatarum"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG V, RG VI, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Libri_Officialium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "LO"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Libri_Officialium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio di Stato di Roma, Fondo Camerale I, Libri Officialium"
+  }, {
+    "@value" : "Ufficiali camerali"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Mandata",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "M"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Mandata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Mandata (Rom. Staatsarchiv)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Miscellanea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Misc. Arm. (RG VIII)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Miscellanea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Arch. Vat. Acta consistor. Mise. to 1. (RG III)"
+  }, {
+    "@value" : "Arch. Vat. Mise. Arm. XII to 121A. (RG III)"
+  }, {
+    "@value" : "Archivio segreto Vaticano, Miscellanea"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Dublin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ms._1223_1_(Series)_vol._4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Dublin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Dublin, Trinity College Library, Ms. 1223 1 (Series) vol. 4"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Obbligazioni_per_i_servizi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Obbligazioni_per_i_servizi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Objekt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Objekt"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Obligationes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Obl. (RG I, RG II)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Obligationes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Arch. Vat. Fondo dell' Arch. di Stato Oblig. to. (RG III)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I, RG II, RG III"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Obligationes_communes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "OC"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Obligationes_communes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Obligationes communes"
+  }, {
+    "@value" : "Archivio Segreto Vaticano, Camera Apostolica, Obligationes pro Communibus Servitiis      (RG IX)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VII, RG IX"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Obligationes_et_Solutiones",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "OS, Oblig. et Solut. (RG III), O (RG IV)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Obligationes_et_Solutiones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Obligationes et Solutiones"
+  }, {
+    "@value" : "Arch. Vatic. Oblig. et Solut. (RG III)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I, RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Obligationes_particulares",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "OP"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Obligationes_particulares"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Obligationes particulares"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Orden",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Orden"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Ort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "Ein Ort ist eine Stadt, ein Dorf oder ein Berg, der über Koordinaten lokalisiert werden kann."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Paris",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Paris"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Paris_L_25_A_9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Paris L 25 A 9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Paris_L_25_A_9"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Paris"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Paris, Archives Nationales"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Patrozinium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Patrozinium"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Akteur"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Person_explizit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Person_explizit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Person"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Personengruppe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Personengruppe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Akteur"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Mehrere Personen treten unter einer Gruppenbezeichnung in den Regesten auf."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Petent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Petent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Rolle"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Pfarrkirche",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "par. eccl."
+  }, {
+    "@language" : "la",
+    "@value" : "par. ecclesia"
+  }, {
+    "@language" : "la",
+    "@value" : "parochialis ecclesia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Pfarrkirche"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirche"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine Pfarrkirche ist die Hauptkirche einer Pfarrei, in der ein Pfarrer tätig ist und regelmäßig Gottesdienste, Sakramente und seelsorgliche Aufgaben erfüllt."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Pluteus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Plut."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Pluteus"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Plut.:Florenz, Bibliotheca Laurentiana, Pluteus 90 sup., Cod. 138"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VIII"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Poenitentiarie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Poenitentiarie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG II"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "PK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Politische_Korrespondenz_Martins_V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Prato",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Prato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Prato, Bibl. Roncioniana cod. 327-336"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG III"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Presidenza_delle_Strade",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Presidenza delle Strade, reg. 2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Presidenza_delle_Strade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio di Stato di Roma, Achivio della Presidenza delle Strade n. 2, 151 vol."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IX"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Quellenbeleg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Quellenbeleg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Quellenbelege für das RG beinhalten die Angabe der Quelle und ein zugehöriges Datum, ggf. auch den Zusatz exped."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@value" : "27. oct. 1445 S 408 31r"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Quittantiae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Q"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Quittantiae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fondo_Camerale_Primo"
+  }, {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio di Stato di Roma, Fondo Camerale I, Quietanze per comuni o minuti servizi (RG V)"
+  }, {
+    "@value" : "Archivio di Stato di Roma, Fondo Camerale I: Quittantiae (RG VIII)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VIII, RG IX"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Vorbild"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kirchliche_Institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@language" : "la",
+    "@value" : "plen. indulg."
+  }, {
+    "@language" : "la",
+    "@value" : "rem. plen."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Plenarablass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Ablass"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Ablass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Ablasshöhe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Ablass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Ablassempfaenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Akteur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/stringInRG" : [ {
+    "@value" : "indulg. ad instar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ad-instar-Ablass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Ablass"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Regest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Regesta_Avinionensia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Regesta_Avinionensia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Kommunregister"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Reg. Avin. 205-289"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Registra_Vaticana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Registra_Vaticana"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Resignationes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "R (RG VII, RG VIII), Resign. (RG IX, RG X)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Resignationes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio segreto Vaticano, Resignationes"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Rolle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Rota_Miscellanea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Rota Misc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Rota Miscellanea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio Segreto Vaticano, Sacra Romana Rota, Miscellanea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Schedario_Garampi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Schedario_Garampi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG VI"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Secretaria_Camerae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "Sec. Cam."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Secretaria Camerae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio Segreto Vaticano, Camera Apostolica, Secretacia Camerae"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Servitia_Minuta",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "SM"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Servitia_Minuta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Servitia Minuta"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VI"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Sozialer_Stand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Sozialer_Stand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Stift",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Sublemma_RG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Supplikenregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "S"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Supplikenregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "la",
+    "@value" : "Archivio Segreto Vaticano, Registra Supplicationum"
+  }, {
+    "@value" : "Archivio Segreto Vaticano, Registri delle Suppliche (nur im RG IX)"
+  }, {
+    "@value" : "Reg. Suppl. 44-76 (RG I)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG I, RG II, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Taxae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "T"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Taxae"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio Segreto Vaticano, Taxae (bullae et registri)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG IV, RG V, RG VI, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Typ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Vatikanregister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://webprotege.stanford.edu/rgAbbreviation" : [ {
+    "@value" : "V"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Vatikanregister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@value" : "Archivio Segreto Vaticano, Registra Vaticana"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "RG V, RG VI, RG VII, RG VIII, RG IX, RG X"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Verwaltungseinheit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Verwaltungseinheit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Eine Verwaltungseinheit ist ein abgegrenzter geographischer Raum, der für administrative Zwecke definiert und durch eine Institution oder einen Amtsinhaber verwaltet wird."
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Weltliches_Amt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Weltliches_Amt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Amt"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/Zahlungen_der_Kollektoren",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Zahlungen_der_Kollektoren"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/Geldzahlung"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "de",
+    "@value" : "Vgl. RG Bearbeitungshinweise, S. 74-75 (zum Fondo Camerale)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "la",
+    "@value" : "Marinus de Frigeno sed. ap. prothonot. in regno Dacie etc. et collect.: solv. 723 fl. adc. ex d. collectoria p. manus soc. de Spinellis 9.nov.75 FC I 846 213r"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/alt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "alt"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/has_RG_ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "has_RG_ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/has_RG_ID_Header",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "has_RG_ID_Header"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/has_RG_ID"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/has_RG_ID_Sublemma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "has_RG_ID_Sublemma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/has_RG_ID"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/has_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "has_date"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/has_source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "has_source"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Akteur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Akteur"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Bestandteil_RG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Regest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Bestandteil_RG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Bestandteil_Regest_RG"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Dauer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Dauer"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Dioezese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Akteur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Diözese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Dioezese"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Fundstelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Quellenbeleg"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Fundstelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Fundstelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Ort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Ort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Ort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Rolle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Rolle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Akteur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Sozialer_Stand",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Sozialer_Stand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Sozialer_Stand"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Weitere_Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Sublemma_RG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Weitere_Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/hat_Activity"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/hat_Zentrale_Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://webprotege.stanford.edu/Sublemma_RG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_Zentrale_Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://webprotege.stanford.edu/Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://webprotege.stanford.edu/hat_Activity"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/ist_ein(e)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "ist ein(e)"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/rgAbbreviation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat_beantragte_Dauer"
+  }, {
+    "@language" : "de",
+    "@value" : "hat_bewilligte_Dauer"
+  }, {
+    "@language" : "de",
+    "@value" : "rgAbbreviation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/rg_Originaltext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "rg_Originaltext"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/rg_abkuerzung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rg_abbreviation"
+  }, {
+    "@language" : "de",
+    "@value" : "rg_abkürzung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://webprotege.stanford.edu/stringInRG",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "stringInRG"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "urn:webprotege:ontology:7944be01-8c73-4cf0-9186-a9b7e3ef1c2b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+} ]

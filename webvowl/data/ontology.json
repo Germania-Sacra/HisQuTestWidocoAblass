@@ -1,0 +1,4202 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "de", "la", "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://webprotege.stanford.edu", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "urn:webprotege:ontology:7944be01-8c73-4cf0-9186-a9b7e3ef1c2b"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "17",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://webprotege.stanford.edu/Florenz",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Florenz",
+      "IRI-based" : "Florenz"
+    },
+    "subClasses" : [ "6" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Obligationes_et_Solutiones",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I, RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Arch. Vatic. Oblig. et Solut. (RG III)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Obligationes et Solutiones",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "OS, Oblig. et Solut. (RG III), O (RG IV)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Obligationes_et_Solutiones",
+      "IRI-based" : "Obligationes_et_Solutiones"
+    },
+    "attributes" : [ "external" ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kirche",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Eine kirchliche Organisationseinheit, die mit einem Gebäude zusammenfällt. Sie ist meist mit Personal und Pfründen ausgestattet. Sie hat Rechte und Pflichten, v. a. in der Seelsorge der Gläubigen.",
+        "type" : "label"
+      } ],
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "ecclesia",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "eccl.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kirche",
+      "IRI-based" : "Kirche"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Annatenregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "A",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Annatae",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Libri obligationum annatarum",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VI, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Annatenregister",
+      "IRI-based" : "Annatenregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "plen. indulg.",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "rem. plen.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Plenarablass",
+      "IRI-based" : "R9a9KGAUwW5MmY6bZNF46rS"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Formatari",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Formatari (Fondo dell’Archivio di Stato)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Formatari",
+      "IRI-based" : "Formatari"
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/1_Coll_359_A",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "1._Coll._359_A",
+      "IRI-based" : "1_Coll_359_A"
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kirchliche_Verwaltungseinheit",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Eine von kirchlichen Autoritäten verwendete Raumeinteilung.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kirchliche Verwaltungseinheit",
+      "IRI-based" : "Kirchliche_Verwaltungseinheit"
+    },
+    "subClasses" : [ "33" ],
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "32" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Libri_Formatarum",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Liber Formatarum",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Libri Formatarum",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG V, RG VI, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "F",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Libri_Formatarum",
+      "IRI-based" : "Libri_Formatarum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "34",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kloster_Gebaeudekomplex",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Kloster_Gebäudekomplex",
+      "IRI-based" : "Kloster_Gebaeudekomplex"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Fondo_Camerale",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "FC",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Fondo_Camerale",
+      "IRI-based" : "Fondo_Camerale"
+    },
+    "attributes" : [ "external" ],
+    "id" : "47",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Ottob_Lat",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Ottob. Lat.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Ottob._Lat.",
+      "IRI-based" : "Cod_Ottob_Lat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "54",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Sublemma_RG",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sublemma_RG"
+    },
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Gebaeude_Gebaeudeteil",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Gebäude_Gebäudeteil",
+      "IRI-based" : "Gebaeude_Gebaeudeteil"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Pfarrkirche",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Eine Pfarrkirche ist die Hauptkirche einer Pfarrei, in der ein Pfarrer tätig ist und regelmäßig Gottesdienste, Sakramente und seelsorgliche Aufgaben erfüllt.",
+        "type" : "label"
+      } ],
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "parochialis ecclesia",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "par. ecclesia",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "par. eccl.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Pfarrkirche",
+      "IRI-based" : "Pfarrkirche"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Servitia_Minuta",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Servitia Minuta",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "SM",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VI",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Servitia_Minuta",
+      "IRI-based" : "Servitia_Minuta"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Indici",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Indice (RG V), I (RG VII, RG VIII, RG IX)",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Indici",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Indici",
+      "IRI-based" : "Indici"
+    },
+    "attributes" : [ "external" ],
+    "id" : "59",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Amt",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Amt",
+      "IRI-based" : "Amt"
+    },
+    "subClasses" : [ "61" ],
+    "attributes" : [ "external" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Verwaltungseinheit",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Eine Verwaltungseinheit ist ein abgegrenzter geographischer Raum, der für administrative Zwecke definiert und durch eine Institution oder einen Amtsinhaber verwaltet wird.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Verwaltungseinheit",
+      "IRI-based" : "Verwaltungseinheit"
+    },
+    "subClasses" : [ "31" ],
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Gnadenerweis",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Gnadenerweis",
+      "IRI-based" : "Gnadenerweis"
+    },
+    "subClasses" : [ "15" ],
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Urbin_Lat",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Biblioteca Apostolica Vaticana, Codices Urbiniati Latini",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Urbin. Lat.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Urbin._Lat.",
+      "IRI-based" : "Cod_Urbin_Lat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "63",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Acquisti",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Acquisti",
+      "IRI-based" : "Acquisti"
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Archivium_Arcis",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio segreto Vaticano, Archivium Arcis",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "A. A.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Archivium_Arcis",
+      "IRI-based" : "Archivium_Arcis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Petent",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Petent",
+      "IRI-based" : "Petent"
+    },
+    "attributes" : [ "external" ],
+    "id" : "75",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Pluteus",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Plut.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Plut.:Florenz, Bibliotheca Laurentiana, Pluteus 90 sup., Cod. 138",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Pluteus",
+      "IRI-based" : "Pluteus"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Obligationes",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I, RG II, RG III",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Obl. (RG I, RG II)",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Arch. Vat. Fondo dell' Arch. di Stato Oblig. to. (RG III)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Obligationes",
+      "IRI-based" : "Obligationes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Ablass",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ablass",
+      "IRI-based" : "Ablass",
+      "la" : "indulgentia"
+    },
+    "subClasses" : [ "14", "79" ],
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "62" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Acta_Miscellanea",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Acta Misc. (RG V), AM (RG X)",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Fondo Concistoriale, Acta Miscellanea",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG V, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Acta_Miscellanea",
+      "IRI-based" : "Acta_Miscellanea"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Chig_lat",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Biblioteca Vaticana, Fondo Chigi (RG VIII, RG IX)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG V, RG VI, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Chig. lat. (RG V), Chigi (RG VIII), Cod. Chigi (RG IX, RG X)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Chig._lat.",
+      "IRI-based" : "Cod_Chig_lat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Divisionsregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Divisionsregister",
+      "IRI-based" : "Divisionsregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Sozialer_Stand",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Sozialer_Stand",
+      "IRI-based" : "Sozialer_Stand"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Regesta_Avinionensia",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Reg. Avin. 205-289",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Regesta_Avinionensia",
+      "IRI-based" : "Regesta_Avinionensia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "85",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Dioezese",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Bistum",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Diözese",
+      "IRI-based" : "Dioezese"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Obligationes_communes",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Obligationes communes",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Camera Apostolica, Obligationes pro Communibus Servitiis      (RG IX)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VII, RG IX",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "OC",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Obligationes_communes",
+      "IRI-based" : "Obligationes_communes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "89",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Presidenza_delle_Strade",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio di Stato di Roma, Achivio della Presidenza delle Strade n. 2, 151 vol.",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Presidenza delle Strade, reg. 2",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IX",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Presidenza_delle_Strade",
+      "IRI-based" : "Presidenza_delle_Strade"
+    },
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Barb_Lat",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Biblioteca Vaticana, Codices Barberiniani latini",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Barb. lat. (RG VI, RG IX, RG X), Barb. lat. (RG VIII)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I, RG VI, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Barb._Lat.",
+      "IRI-based" : "Cod_Barb_Lat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Bullenregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Bullenregister",
+      "IRI-based" : "Bullenregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "92",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Klostergemeinschaft",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Die Klostergemeinschaft kann als Personengruppe im RG auftreten. Die Abkürzung lautet abb. etc. = abbas et conventus monasterii ...",
+        "type" : "label"
+      } ],
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "abb. etc. mon.",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "prep. etc. mon.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Klostergemeinschaft",
+      "IRI-based" : "Klostergemeinschaft"
+    },
+    "attributes" : [ "external" ],
+    "id" : "93",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Index_Cedularum_Consistorialium",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio segreto Vaticano, Index Cedularum Consistorialium",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Ind. Ced.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Index_Cedularum_Consistorialium",
+      "IRI-based" : "Index_Cedularum_Consistorialium"
+    },
+    "attributes" : [ "external" ],
+    "id" : "94",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Weltliches_Amt",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Weltliches_Amt",
+      "IRI-based" : "Weltliches_Amt"
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "60" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Vat_Lat",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II, RG VI, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Bibliotheca Vaticana, Codices Vaticani Latini (RG IX)",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Vat. lat.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Vat._Lat.",
+      "IRI-based" : "Cod_Vat_Lat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Quittantiae",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio di Stato di Roma, Fondo Camerale I, Quietanze per comuni o minuti servizi (RG V)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio di Stato di Roma, Fondo Camerale I: Quittantiae (RG VIII)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VIII, RG IX",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Q",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Quittantiae",
+      "IRI-based" : "Quittantiae"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "5", "46" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "undefined",
+        "value" : "indulg. ad instar",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Ad-instar-Ablass",
+      "IRI-based" : "RYG4TMialuKkgMXCthNtIg"
+    },
+    "attributes" : [ "external" ],
+    "id" : "79",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Akteur",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Akteur",
+      "IRI-based" : "Akteur"
+    },
+    "subClasses" : [ "1", "65", "43" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Fondo_Domenicani",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Fondo Dom.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio segreto Vaticano, Fondo Domenicani",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Fondo_Domenicani",
+      "IRI-based" : "Fondo_Domenicani"
+    },
+    "attributes" : [ "external" ],
+    "id" : "98",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Domstift",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Domstift",
+      "IRI-based" : "Domstift"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70",
+    "superClasses" : [ "71" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Taxae",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Taxae (bullae et registri)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VI, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "T",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Taxae",
+      "IRI-based" : "Taxae"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Stift",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stift"
+    },
+    "subClasses" : [ "70" ],
+    "attributes" : [ "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Person",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Person",
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "38" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Bestandteil_Regest_RG",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Ein Regest besteht immer aus einem Header und einem Sublemma (online). Im physischen Buch wird die Trennung der beiden Teile i.d.R. durch einen Doppelpunkt gekennzeichnet.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Bestandteil_Regest_RG",
+      "IRI-based" : "Bestandteil_Regest_RG"
+    },
+    "subClasses" : [ "40" ],
+    "attributes" : [ "external" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kirche_Gebaeude",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Kirche_Gebäude",
+      "IRI-based" : "Kirche_Gebaeude"
+    },
+    "attributes" : [ "external" ],
+    "id" : "100",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Quellenbeleg",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Quellenbelege für das RG beinhalten die Angabe der Quelle und ein zugehöriges Datum, ggf. auch den Zusatz exped.",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "undefined",
+        "value" : "27. oct. 1445 S 408 31r",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Quellenbeleg",
+      "IRI-based" : "Quellenbeleg"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Fondo_Veneto",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio segreto Vaticano, Fondo Veneto",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Fondo Veneto",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Fondo_Veneto",
+      "IRI-based" : "Fondo_Veneto"
+    },
+    "attributes" : [ "external" ],
+    "id" : "102",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Klosterkapelle",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "capella",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "la",
+        "value" : "RG IV 00778: Balduinus (de Wenden) prior mon. s. Michaelis Lunenborg. o. s. Ben. Verden. dioc. presb. decr. doct. de indulg. pro eccl. et capella b. Catherine virg. 29 dec. 1429 S 251 48v, L 295 10v.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Klosterkapelle",
+      "IRI-based" : "Klosterkapelle"
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "53" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Poenitentiarie",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Poenitentiarie",
+      "IRI-based" : "Poenitentiarie"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Obbligazioni_per_i_servizi",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Obbligazioni_per_i_servizi",
+      "IRI-based" : "Obbligazioni_per_i_servizi"
+    },
+    "attributes" : [ "external" ],
+    "id" : "104",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Secretaria_Camerae",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Camera Apostolica, Secretacia Camerae",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Sec. Cam.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Secretaria Camerae",
+      "IRI-based" : "Secretaria_Camerae"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Brevenregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Brevenminuten",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "B",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Brevenregister",
+      "IRI-based" : "Brevenregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "106",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Person_explizit",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Person_explizit",
+      "IRI-based" : "Person_explizit"
+    },
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Personengruppe",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Mehrere Personen treten unter einer Gruppenbezeichnung in den Regesten auf.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Personengruppe",
+      "IRI-based" : "Personengruppe"
+    },
+    "subClasses" : [ "93" ],
+    "attributes" : [ "external" ],
+    "id" : "65",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Codices_Palatini_latini",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Palat. lat.",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Biblioteca Vaticana, Codices Palatini latini",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Codices Palatini latini",
+      "IRI-based" : "Codices_Palatini_latini"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Dublin",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Dublin",
+      "IRI-based" : "Dublin"
+    },
+    "subClasses" : [ "111" ],
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kammerregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG III",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Reg. Vat.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kammerregister",
+      "IRI-based" : "Kammerregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Abtei",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Abtei",
+      "IRI-based" : "Abtei"
+    },
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "114" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Paris_L_25_A_9",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Paris L 25 A 9",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Paris, Archives Nationales",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Paris_L_25_A_9",
+      "IRI-based" : "Paris_L_25_A_9"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Event",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Ein Event ist eine zeitlich ausgedehnte Entität, etwas, das stattfindet, aber nicht „existiert wie ein Objekt“. Wir lehnen uns hier an den Event-Begriff von CIDOC-CRM 7.3.1 an.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Event",
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "118" ],
+    "attributes" : [ "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Fundstelle",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII, RG IX, RG X",
+        "type" : "label"
+      }, {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Fundstellen sind die Registerserien, aus denen sich die Inhalte der Regesten speisen und die in den RG-Bänden abgekürzt angegeben werden.",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "de",
+        "value" : "Quelle",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Fundstelle",
+      "IRI-based" : "Fundstelle"
+    },
+    "subClasses" : [ "109", "110", "4", "91", "7", "92", "112", "119", "94", "13", "120", "121", "122", "27", "108", "30", "95", "34", "45", "123", "124", "47", "125", "54", "126", "98", "99", "127", "58", "59", "128", "129", "63", "46", "67", "86", "72", "130", "131", "102", "77", "132", "133", "78", "134", "103", "135", "136", "104", "80", "81", "82", "137", "138", "116", "139", "105", "89", "106", "140", "141", "90" ],
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Concistoriale",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Concistoriale (Acta Miscellanea vol,1)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Concistoriale",
+      "IRI-based" : "Concistoriale"
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Libri_Officialium",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "LO",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio di Stato di Roma, Fondo Camerale I, Libri Officialium",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Ufficiali camerali",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Libri_Officialium",
+      "IRI-based" : "Libri_Officialium"
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Geldzahlung",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Geldzahlung"
+    },
+    "subClasses" : [ "150" ],
+    "attributes" : [ "external" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kirchliche_Institution",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Eine kirchliche Institution ist eine dauerhaft bestehende, strukturierte und rechtlich handlungsfähige Einheit innerhalb der christlichen Kirche, die einem geistlichen Zweck dient",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kirchliche_Institution",
+      "IRI-based" : "Kirchliche_Institution"
+    },
+    "subClasses" : [ "114", "8", "156", "53" ],
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Orden",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Orden",
+      "IRI-based" : "Orden"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Reg_Lat",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Bibliotheca Vaticana. Codices Reginenses Latini (RG IX)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VI, RG IX",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Reg. lat. (RG VI), Cod. Regin. lat. (RG IX)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Reg._Lat.",
+      "IRI-based" : "Cod_Reg_Lat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Registra_Vaticana",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "V",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Registra_Vaticana",
+      "IRI-based" : "Registra_Vaticana"
+    },
+    "attributes" : [ "external" ],
+    "id" : "125",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Vatikanregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "V",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Registra Vaticana",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Vatikanregister",
+      "IRI-based" : "Vatikanregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "126",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Hospital",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "de",
+        "value" : "Spital",
+        "type" : "label"
+      } ],
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "hosp.",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "domus hosp.",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "dom. hosp.",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "hosp. paup.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Hospital",
+      "IRI-based" : "Hospital"
+    },
+    "attributes" : [ "external" ],
+    "id" : "156",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Resignationes",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio segreto Vaticano, Resignationes",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "R (RG VII, RG VIII), Resign. (RG IX, RG X)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Resignationes",
+      "IRI-based" : "Resignationes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kommunregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I, RG II, RG III",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kommunregister",
+      "IRI-based" : "Kommunregister"
+    },
+    "subClasses" : [ "85" ],
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Activitytyp",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Arten von Activity",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Activitytyp",
+      "IRI-based" : "Activitytyp"
+    },
+    "subClasses" : [ "62" ],
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Instrumenta_Miscellanea",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "IM (RG V), Intr. Misc. (RG IX, RG X), Instrum. Miscellanea (RG II)",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Instrumenta Miscellanea",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II, RG IV, RG V, RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Instrumenta_Miscellanea",
+      "IRI-based" : "Instrumenta_Miscellanea"
+    },
+    "attributes" : [ "external" ],
+    "id" : "130",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Rolle",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rolle"
+    },
+    "subClasses" : [ "75" ],
+    "attributes" : [ "external" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Header_RG",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Header_RG",
+      "IRI-based" : "Header_RG"
+    },
+    "attributes" : [ "external" ],
+    "id" : "40",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Arch_Vat_Fondo_dell'Arch_di_Stato_1830",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Arch._Vat._Fondo_dell'Arch._di_Stato_1830",
+      "IRI-based" : "Arch_Vat_Fondo_dell'Arch_di_Stato_1830"
+    },
+    "attributes" : [ "external" ],
+    "id" : "131",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Patrozinium",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Patrozinium",
+      "IRI-based" : "Patrozinium"
+    },
+    "attributes" : [ "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Zahlungen_der_Kollektoren",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Vgl. RG Bearbeitungshinweise, S. 74-75 (zum Fondo Camerale).",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "la",
+        "value" : "Marinus de Frigeno sed. ap. prothonot. in regno Dacie etc. et collect.: solv. 723 fl. adc. ex d. collectoria p. manus soc. de Spinellis 9.nov.75 FC I 846 213r",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Zahlungen_der_Kollektoren",
+      "IRI-based" : "Zahlungen_der_Kollektoren"
+    },
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Ort",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "Ein Ort ist eine Stadt, ein Dorf oder ein Berg, der über Koordinaten lokalisiert werden kann.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Ort",
+      "IRI-based" : "Ort"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Lateranregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Registri Lateranensi (RG IX, RG X)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Registra Lateranensia",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Registra Lateranensia (RG V, RG VII, RG VIII)",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "L (RG V, RG VI, RG VII, RG VIII, RG IX, RG X), Reg. Lat. (RG II, RG III)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Lateranregister",
+      "IRI-based" : "Lateranregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Codices_Urbinates_latini",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Urb. lat.",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Biblioteca Vaticana, Codices Urbinates latini",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Codices_Urbinates_latini",
+      "IRI-based" : "Codices_Urbinates_latini"
+    },
+    "attributes" : [ "external" ],
+    "id" : "134",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Mandata",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Mandata (Rom. Staatsarchiv)",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "M",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Mandata",
+      "IRI-based" : "Mandata"
+    },
+    "attributes" : [ "external" ],
+    "id" : "135",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Prato",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG III",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Prato, Bibl. Roncioniana cod. 327-336",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Prato",
+      "IRI-based" : "Prato"
+    },
+    "attributes" : [ "external" ],
+    "id" : "136",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kollektorie",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "K",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kollektorie",
+      "IRI-based" : "Kollektorie"
+    },
+    "attributes" : [ "external" ],
+    "id" : "137",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Diversa_Cameralia",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "DC",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Diversa Cameralia",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Diversa_Cameralia",
+      "IRI-based" : "Diversa_Cameralia"
+    },
+    "attributes" : [ "external" ],
+    "id" : "138",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Paris",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Paris",
+      "IRI-based" : "Paris"
+    },
+    "subClasses" : [ "115" ],
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kloster",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Ein Kloster ist eine religiöse Gemeinschaft, in der Mönche oder Nonnen nach festen Regeln zusammenleben.",
+        "type" : "label"
+      } ],
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "mon.",
+        "type" : "label"
+      }, {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "monasterium",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kloster",
+      "IRI-based" : "Kloster"
+    },
+    "subClasses" : [ "113" ],
+    "attributes" : [ "external" ],
+    "id" : "114",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/IE_III",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Florenz, Bibl. nazionale XIX 79",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "IE III",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG III",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "IE_III",
+      "IRI-based" : "IE_III"
+    },
+    "attributes" : [ "external" ],
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Armarien",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Armadi",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG II, RG III, RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Arm.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Armarien",
+      "IRI-based" : "Armarien"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Objekt",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Objekt",
+      "IRI-based" : "Objekt"
+    },
+    "subClasses" : [ "35", "57", "100" ],
+    "attributes" : [ "external" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Distributiones_bullarum",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "DB",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Distributiones_bullarum",
+      "IRI-based" : "Distributiones_bullarum"
+    },
+    "attributes" : [ "external" ],
+    "id" : "120",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Activity",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "de" : "Activity",
+      "IRI-based" : "Activity"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VIII",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Dublin, Trinity College Library, Ms. 1223 1 (Series) vol. 4",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Dublin",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Ms._1223_1_(Series)_vol._4",
+      "IRI-based" : "Ms_1223_1_(Series)_vol_4"
+    },
+    "attributes" : [ "external" ],
+    "id" : "111",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Rota_Miscellanea",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Sacra Romana Rota, Miscellanea",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IX, RG X",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Rota Misc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Rota Miscellanea",
+      "IRI-based" : "Rota_Miscellanea"
+    },
+    "attributes" : [ "external" ],
+    "id" : "108",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Cod_Cappon",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG X",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Biblioteca Apostolica Vaticana, Codices Capponiani",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Cod. Cappon.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Cod._Cappon.",
+      "IRI-based" : "Cod_Cappon"
+    },
+    "attributes" : [ "external" ],
+    "id" : "123",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Miscellanea",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "Misc. Arm. (RG VIII)",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Arch. Vat. Acta consistor. Mise. to 1. (RG III)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Arch. Vat. Mise. Arm. XII to 121A. (RG III)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio segreto Vaticano, Miscellanea",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Miscellanea",
+      "IRI-based" : "Miscellanea"
+    },
+    "attributes" : [ "external" ],
+    "id" : "127",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Regest",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regest"
+    },
+    "attributes" : [ "external" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "PK",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Politische_Korrespondenz_Martins_V",
+      "IRI-based" : "Politische_Korrespondenz_Martins_V"
+    },
+    "attributes" : [ "external" ],
+    "id" : "128",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Institution",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Eine Institution ist eine strukturierte und rechtlich gefasste Einheit mit dauerhaftem Bestand und einem spezifischen kirchlichen und/oder administrativen Auftrag, die als juristische Person handeln kann.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Institution",
+      "IRI-based" : "Institution"
+    },
+    "subClasses" : [ "9" ],
+    "attributes" : [ "external" ],
+    "id" : "43",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Fondo_Camerale_Primo",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fondo_Camerale_Primo"
+    },
+    "subClasses" : [ "45" ],
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "186",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "17",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "12",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Supplikenregister",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Registra Supplicationum",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Archivio Segreto Vaticano, Registri delle Suppliche (nur im RG IX)",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Reg. Suppl. 44-76 (RG I)",
+        "type" : "label"
+      } ],
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "S",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I, RG II, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Supplikenregister",
+      "IRI-based" : "Supplikenregister"
+    },
+    "attributes" : [ "external" ],
+    "id" : "133",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Introitus_et_Exitus",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "I. E. (RG I)",
+        "type" : "label"
+      }, {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "IE",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Introitus et Exitus",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG I, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Introitus_et_Exitus",
+      "IRI-based" : "Introitus_et_Exitus"
+    },
+    "attributes" : [ "external" ],
+    "id" : "139",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Typ",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Typ"
+    },
+    "subClasses" : [ "49" ],
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Obligationes_particulares",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "rgAbbreviation" : [ {
+        "identifier" : "rgAbbreviation",
+        "language" : "undefined",
+        "value" : "OP",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "la",
+        "value" : "Archivio Segreto Vaticano, Obligationes particulares",
+        "type" : "label"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG IV, RG V, RG VII, RG VIII, RG IX, RG X",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Obligationes_particulares",
+      "IRI-based" : "Obligationes_particulares"
+    },
+    "attributes" : [ "external" ],
+    "id" : "140",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Kapelle",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "de",
+        "value" : "Eine Kapelle ist ein kleinerer, meist von einer Kirche abhängigen Sakralraum, der für bestimmte liturgische Handlungen, private Andachten oder besondere Personengruppen bestimmt ist. Sie kann Teil einer größeren Kirche, eines Klosters, eines Spitals oder eines weltlichen Gebäudes (z. B. Schloss) sein oder auch frei stehen.",
+        "type" : "label"
+      } ],
+      "stringInRG" : [ {
+        "identifier" : "stringInRG",
+        "language" : "la",
+        "value" : "capella",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kapelle",
+      "IRI-based" : "Kapelle"
+    },
+    "subClasses" : [ "52" ],
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://webprotege.stanford.edu/Schedario_Garampi",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "instances" : 0,
+    "annotations" : {
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "undefined",
+        "value" : "RG VI",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Schedario_Garampi",
+      "IRI-based" : "Schedario_Garampi"
+    },
+    "attributes" : [ "external" ],
+    "id" : "141",
+    "superClasses" : [ "5" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://webprotege.stanford.edu/hat_Rolle",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "2",
+    "label" : {
+      "de" : "hat_Rolle",
+      "IRI-based" : "hat_Rolle"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/ist_ein(e)",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "12",
+    "label" : {
+      "de" : "ist ein(e)",
+      "IRI-based" : "ist_ein(e)"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Ort",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "18",
+    "label" : {
+      "de" : "hat_Ort",
+      "IRI-based" : "hat_Ort"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "17",
+    "attributes" : [ "external", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "12",
+    "subproperty" : [ "19", "20", "0", "16", "21", "22", "23", "24" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "26",
+    "label" : {
+      "de" : "hat_Ablasshöhe",
+      "IRI-based" : "RB9hDyM7XOsxY3qglI2vo72"
+    },
+    "domain" : "15",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/has_source",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "29",
+    "label" : {
+      "de" : "has_source",
+      "IRI-based" : "has_source"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "28"
+  }, {
+    "range" : "1",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "41",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "43",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "50",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "53",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Sozialer_Stand",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "55",
+    "label" : {
+      "de" : "hat_Sozialer_Stand",
+      "IRI-based" : "hat_Sozialer_Stand"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "1",
+    "attributes" : [ "external", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "2",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "71",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/has_RG_ID",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "74",
+    "label" : {
+      "de" : "has_RG_ID",
+      "IRI-based" : "has_RG_ID"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype", "functional" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Activity",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "12",
+    "label" : {
+      "de" : "hat_Activity",
+      "IRI-based" : "hat_Activity"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "12",
+    "subproperty" : [ "83", "84" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Bestandteil_RG",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "41",
+    "label" : {
+      "de" : "hat_Bestandteil_RG",
+      "IRI-based" : "hat_Bestandteil_RG"
+    },
+    "domain" : "97",
+    "attributes" : [ "external", "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "9",
+    "label" : {
+      "de" : "hat_Vorbild",
+      "IRI-based" : "R8ZMIsVdzKU4T5czaczW5wq"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "79",
+    "attributes" : [ "external", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Fundstelle",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "5",
+    "label" : {
+      "de" : "hat_Fundstelle",
+      "IRI-based" : "hat_Fundstelle"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "101",
+    "attributes" : [ "external", "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "2",
+    "label" : {
+      "de" : "hat_Ablassempfaenger",
+      "IRI-based" : "RDYyCiUTK18WQ9kAxbKp7jn"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "15",
+    "attributes" : [ "external", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "5",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/rg_Originaltext",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "143",
+    "label" : {
+      "de" : "rg_Originaltext",
+      "IRI-based" : "rg_Originaltext"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "142"
+  }, {
+    "range" : "5",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "5",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "5",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "5",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "5",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "5",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "5",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "5",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "5",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "5",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "5",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "8",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "161"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "5",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "117",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "110",
+    "domain" : "111",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "65",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "5",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "5",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "5",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/has_RG_ID_Header",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "172",
+    "label" : {
+      "de" : "has_RG_ID_Header",
+      "IRI-based" : "has_RG_ID_Header"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Zentrale_Activity",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "118",
+    "label" : {
+      "de" : "hat_Zentrale_Activity",
+      "IRI-based" : "hat_Zentrale_Activity"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "56",
+    "attributes" : [ "external", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "5",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "5",
+    "domain" : "128",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "5",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "5",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "range" : "5",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/A0_hat_Quellenbeleg",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "101",
+    "label" : {
+      "de" : "hat_Quellenbeleg",
+      "IRI-based" : "A0_hat_Quellenbeleg"
+    },
+    "domain" : "56",
+    "attributes" : [ "external", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "5",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "range" : "5",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "range" : "5",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "range" : "5",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "183"
+  }, {
+    "range" : "5",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/has_RG_ID_Sublemma",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "186",
+    "label" : {
+      "de" : "has_RG_ID_Sublemma",
+      "IRI-based" : "has_RG_ID_Sublemma"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "185"
+  }, {
+    "range" : "5",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "5",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "5",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "5",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "5",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "5",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "5",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "5",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "194"
+  }, {
+    "range" : "5",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "5",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "5",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "5",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "5",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "5",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Akteur",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "12",
+    "label" : {
+      "de" : "hat_Akteur",
+      "IRI-based" : "hat_Akteur"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object" ],
+    "id" : "201"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Weitere_Activity",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "118",
+    "label" : {
+      "de" : "hat_Weitere_Activity",
+      "IRI-based" : "hat_Weitere_Activity"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "56",
+    "attributes" : [ "external", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "5",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "5",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "5",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "5",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "5",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "5",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "5",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "5",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "5",
+    "domain" : "136",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "210"
+  }, {
+    "range" : "5",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/rg_abkuerzung",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "213",
+    "label" : {
+      "de" : "rg_abkürzung",
+      "IRI-based" : "rg_abkuerzung",
+      "en" : "rg_abbreviation"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "212"
+  }, {
+    "range" : "5",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "5",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "5",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "5",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "5",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "5",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "5",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "36",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "range" : "114",
+    "domain" : "113",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "36",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "range" : "36",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "range" : "15",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "range" : "116",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "226"
+  }, {
+    "range" : "15",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/hat_Dioezese",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "33",
+    "label" : {
+      "de" : "hat_Diözese",
+      "IRI-based" : "hat_Dioezese"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "external", "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://webprotege.stanford.edu/has_date",
+    "baseIri" : "http://webprotege.stanford.edu",
+    "range" : "165",
+    "label" : {
+      "de" : "has_date",
+      "IRI-based" : "has_date"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "228"
+  }, {
+    "range" : "86",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "62",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "76",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "49",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "9",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "9",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "60",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "9",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "31",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "5",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "5",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "149",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "5",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  } ]
+}
