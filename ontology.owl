@@ -50,10 +50,10 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/rgAbbreviation -->
+    <!-- http://webprotege.stanford.edu/hat_bewilligte_Dauer -->
 
 
-    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/rgAbbreviation">
+    <owl:AnnotationProperty rdf:about="http://webprotege.stanford.edu/hat_bewilligte_Dauer">
         <rdfs:label xml:lang="de">hat_beantragte_Dauer</rdfs:label>
         <rdfs:label xml:lang="de">hat_bewilligte_Dauer</rdfs:label>
         <rdfs:label xml:lang="de">rgAbbreviation</rdfs:label>
@@ -105,33 +105,10 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/A0_hat_Quellenbeleg -->
+    <!-- http://webprotege.stanford.edu/hat_Ablassempfaenger -->
 
 
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/A0_hat_Quellenbeleg">
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Sublemma_RG"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Quellenbeleg"/>
-        <rdfs:label xml:lang="de">hat_Quellenbeleg</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg"/>
-        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Kirchliche_Institution"/>
-        <rdfs:label xml:lang="de">hat_Vorbild</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn -->
-
-
-    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn">
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hat_Ablassempfaenger">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Ablass"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/Akteur"/>
@@ -205,6 +182,17 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/hat_Quellenbeleg -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hat_Quellenbeleg">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Sublemma_RG"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Quellenbeleg"/>
+        <rdfs:label xml:lang="de">hat_Quellenbeleg</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://webprotege.stanford.edu/hat_Rolle -->
 
 
@@ -225,6 +213,18 @@
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Person"/>
         <rdfs:range rdf:resource="http://webprotege.stanford.edu/Sozialer_Stand"/>
         <rdfs:label xml:lang="de">hat_Sozialer_Stand</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hat_Vorbild -->
+
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/hat_Vorbild">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Ad-instar-Ablass"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Kirchliche_Institution"/>
+        <rdfs:label xml:lang="de">hat_Vorbild</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -274,18 +274,6 @@
     
 
 
-    <!-- http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72 -->
-
-
-    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Ablass"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:label xml:lang="de">hat_Ablasshöhe</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://webprotege.stanford.edu/has_RG_ID -->
 
 
@@ -331,6 +319,18 @@
 
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/has_source">
         <rdfs:label xml:lang="de">has_source</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/hat_Ablasshoehe -->
+
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/hat_Ablasshoehe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Ablass"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="de">hat_Ablasshöhe</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -403,7 +403,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Acta_Miscellanea">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Acta Misc. (RG V), AM (RG X)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Acta Misc. (RG V), AM (RG X)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Acta_Miscellanea</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Fondo Concistoriale, Acta Miscellanea</skos:altLabel>
         <skos:definition>RG V, RG X</skos:definition>
@@ -432,6 +432,17 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/Ad-instar-Ablass -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ad-instar-Ablass">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ablass"/>
+        <webprotege:stringInRG>indulg. ad instar</webprotege:stringInRG>
+        <rdfs:label xml:lang="de">Ad-instar-Ablass</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/Akteur -->
 
 
@@ -456,7 +467,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Annatenregister">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>A</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>A</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Annatenregister</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Annatae</skos:altLabel>
         <skos:altLabel xml:lang="la">Libri obligationum annatarum</skos:altLabel>
@@ -470,7 +481,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Archivium_Arcis">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>A. A.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>A. A.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Archivium_Arcis</rdfs:label>
         <skos:altLabel>Archivio segreto Vaticano, Archivium Arcis</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -483,7 +494,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Armarien">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Arm.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Arm.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Armarien</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Armadi</skos:altLabel>
         <skos:definition>RG II, RG III, RG V, RG VI, RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -507,7 +518,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Brevenregister">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>B</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>B</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Brevenregister</rdfs:label>
         <skos:altLabel>Brevenminuten</skos:altLabel>
         <skos:definition>RG X</skos:definition>
@@ -531,7 +542,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Barb_Lat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Barb. lat. (RG VI, RG IX, RG X), Barb. lat. (RG VIII)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Barb. lat. (RG VI, RG IX, RG X), Barb. lat. (RG VIII)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Barb._Lat.</rdfs:label>
         <skos:altLabel xml:lang="la">Biblioteca Vaticana, Codices Barberiniani latini</skos:altLabel>
         <skos:definition>RG I, RG VI, RG VIII, RG IX, RG X</skos:definition>
@@ -544,7 +555,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Cappon">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Cappon.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Cappon.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Cappon.</rdfs:label>
         <skos:altLabel>Biblioteca Apostolica Vaticana, Codices Capponiani</skos:altLabel>
         <skos:definition>RG X</skos:definition>
@@ -557,7 +568,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Chig_lat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Chig. lat. (RG V), Chigi (RG VIII), Cod. Chigi (RG IX, RG X)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Chig. lat. (RG V), Chigi (RG VIII), Cod. Chigi (RG IX, RG X)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Chig._lat.</rdfs:label>
         <skos:altLabel>Biblioteca Vaticana, Fondo Chigi (RG VIII, RG IX)</skos:altLabel>
         <skos:definition>RG V, RG VI, RG VIII, RG IX, RG X</skos:definition>
@@ -570,7 +581,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Ottob_Lat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Ottob. Lat.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Ottob. Lat.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Ottob._Lat.</rdfs:label>
     </owl:Class>
     
@@ -581,7 +592,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Reg_Lat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Reg. lat. (RG VI), Cod. Regin. lat. (RG IX)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Reg. lat. (RG VI), Cod. Regin. lat. (RG IX)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Reg._Lat.</rdfs:label>
         <skos:altLabel>Bibliotheca Vaticana. Codices Reginenses Latini (RG IX)</skos:altLabel>
         <skos:definition>RG VI, RG IX</skos:definition>
@@ -594,7 +605,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Urbin_Lat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Urbin. Lat.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Urbin. Lat.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Urbin._Lat.</rdfs:label>
         <skos:altLabel>Biblioteca Apostolica Vaticana, Codices Urbiniati Latini</skos:altLabel>
         <skos:definition>RG X</skos:definition>
@@ -607,7 +618,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Cod_Vat_Lat">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Cod. Vat. lat.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Cod. Vat. lat.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Cod._Vat._Lat.</rdfs:label>
         <skos:altLabel>Bibliotheca Vaticana, Codices Vaticani Latini (RG IX)</skos:altLabel>
         <skos:definition>RG II, RG VI, RG IX, RG X</skos:definition>
@@ -620,7 +631,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Codices_Palatini_latini">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Palat. lat.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Palat. lat.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Codices Palatini latini</rdfs:label>
         <skos:altLabel>Biblioteca Vaticana, Codices Palatini latini</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -633,7 +644,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Codices_Urbinates_latini">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Urb. lat.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Urb. lat.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Codices_Urbinates_latini</rdfs:label>
         <skos:altLabel>Biblioteca Vaticana, Codices Urbinates latini</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -669,7 +680,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Distributiones_bullarum">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>DB</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>DB</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Distributiones_bullarum</rdfs:label>
     </owl:Class>
     
@@ -680,7 +691,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Diversa_Cameralia">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>DC</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>DC</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Diversa_Cameralia</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Diversa Cameralia</skos:altLabel>
         <skos:definition>RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -744,7 +755,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Fondo_Camerale">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>FC</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>FC</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Fondo_Camerale</rdfs:label>
     </owl:Class>
     
@@ -764,7 +775,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Fondo_Domenicani">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Fondo Dom.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Fondo Dom.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Fondo_Domenicani</rdfs:label>
         <skos:altLabel>Archivio segreto Vaticano, Fondo Domenicani</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -777,7 +788,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Fondo_Veneto">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Fondo Veneto</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Fondo Veneto</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Fondo_Veneto</rdfs:label>
         <skos:altLabel>Archivio segreto Vaticano, Fondo Veneto</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -867,7 +878,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/IE_III">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Florenz"/>
-        <webprotege:rgAbbreviation>IE III</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>IE III</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">IE_III</rdfs:label>
         <skos:altLabel>Florenz, Bibl. nazionale XIX 79</skos:altLabel>
         <skos:definition>RG III</skos:definition>
@@ -880,7 +891,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Index_Cedularum_Consistorialium">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Ind. Ced.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Ind. Ced.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Index_Cedularum_Consistorialium</rdfs:label>
         <skos:altLabel>Archivio segreto Vaticano, Index Cedularum Consistorialium</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -893,7 +904,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Indici">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Indice (RG V), I (RG VII, RG VIII, RG IX)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Indice (RG V), I (RG VII, RG VIII, RG IX)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Indici</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Indici</skos:altLabel>
         <skos:definition>RG IV, RG V, RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -917,7 +928,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Instrumenta_Miscellanea">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>IM (RG V), Intr. Misc. (RG IX, RG X), Instrum. Miscellanea (RG II)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>IM (RG V), Intr. Misc. (RG IX, RG X), Instrum. Miscellanea (RG II)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Instrumenta_Miscellanea</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Instrumenta Miscellanea</skos:altLabel>
         <skos:definition>RG II, RG IV, RG V, RG IX, RG X</skos:definition>
@@ -930,8 +941,8 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Introitus_et_Exitus">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>I. E. (RG I)</webprotege:rgAbbreviation>
-        <webprotege:rgAbbreviation>IE</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>I. E. (RG I)</webprotege:hat_bewilligte_Dauer>
+        <webprotege:hat_bewilligte_Dauer>IE</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Introitus_et_Exitus</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Introitus et Exitus</skos:altLabel>
         <skos:definition>RG I, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -944,7 +955,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Kammerregister">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Reg. Vat.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Reg. Vat.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Kammerregister</rdfs:label>
         <skos:definition>RG III</skos:definition>
     </owl:Class>
@@ -1061,7 +1072,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Kollektorie">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>K</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>K</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Kollektorie</rdfs:label>
     </owl:Class>
     
@@ -1083,7 +1094,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Lateranregister">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>L (RG V, RG VI, RG VII, RG VIII, RG IX, RG X), Reg. Lat. (RG II, RG III)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>L (RG V, RG VI, RG VII, RG VIII, RG IX, RG X), Reg. Lat. (RG II, RG III)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Lateranregister</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Registra Lateranensia (RG V, RG VII, RG VIII)</skos:altLabel>
         <skos:altLabel xml:lang="la">Registra Lateranensia</skos:altLabel>
@@ -1098,7 +1109,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Libri_Formatarum">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>F</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>F</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Libri_Formatarum</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Libri Formatarum</skos:altLabel>
         <skos:altLabel>Liber Formatarum</skos:altLabel>
@@ -1112,7 +1123,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Libri_Officialium">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>LO</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>LO</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Libri_Officialium</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio di Stato di Roma, Fondo Camerale I, Libri Officialium</skos:altLabel>
         <skos:altLabel>Ufficiali camerali</skos:altLabel>
@@ -1126,7 +1137,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Mandata">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>M</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>M</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Mandata</rdfs:label>
         <skos:altLabel>Mandata (Rom. Staatsarchiv)</skos:altLabel>
         <skos:definition>RG IV</skos:definition>
@@ -1139,7 +1150,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Miscellanea">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Misc. Arm. (RG VIII)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Misc. Arm. (RG VIII)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Miscellanea</rdfs:label>
         <skos:altLabel>Arch. Vat. Acta consistor. Mise. to 1. (RG III)</skos:altLabel>
         <skos:altLabel>Arch. Vat. Mise. Arm. XII to 121A. (RG III)</skos:altLabel>
@@ -1173,7 +1184,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Obligationes">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Obl. (RG I, RG II)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Obl. (RG I, RG II)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Obligationes</rdfs:label>
         <skos:altLabel>Arch. Vat. Fondo dell&apos; Arch. di Stato Oblig. to. (RG III)</skos:altLabel>
         <skos:definition>RG I, RG II, RG III</skos:definition>
@@ -1186,7 +1197,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Obligationes_communes">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>OC</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>OC</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Obligationes_communes</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Obligationes communes</skos:altLabel>
         <skos:altLabel>Archivio Segreto Vaticano, Camera Apostolica, Obligationes pro Communibus Servitiis      (RG IX)</skos:altLabel>
@@ -1200,7 +1211,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Obligationes_et_Solutiones">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>OS, Oblig. et Solut. (RG III), O (RG IV)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>OS, Oblig. et Solut. (RG III), O (RG IV)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Obligationes_et_Solutiones</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Obligationes et Solutiones</skos:altLabel>
         <skos:altLabel>Arch. Vatic. Oblig. et Solut. (RG III)</skos:altLabel>
@@ -1214,7 +1225,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Obligationes_particulares">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>OP</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>OP</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Obligationes_particulares</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Obligationes particulares</skos:altLabel>
         <skos:definition>RG IV, RG V, RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -1258,7 +1269,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Paris_L_25_A_9">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Paris"/>
-        <webprotege:rgAbbreviation>Paris L 25 A 9</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Paris L 25 A 9</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Paris_L_25_A_9</rdfs:label>
         <skos:altLabel>Paris, Archives Nationales</skos:altLabel>
         <skos:definition>RG X</skos:definition>
@@ -1330,12 +1341,24 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/Plenarablass -->
+
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Plenarablass">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ablass"/>
+        <webprotege:stringInRG xml:lang="la">plen. indulg.</webprotege:stringInRG>
+        <webprotege:stringInRG xml:lang="la">rem. plen.</webprotege:stringInRG>
+        <rdfs:label xml:lang="de">Plenarablass</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/Pluteus -->
 
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Pluteus">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Plut.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Plut.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Pluteus</rdfs:label>
         <skos:altLabel>Plut.:Florenz, Bibliotheca Laurentiana, Pluteus 90 sup., Cod. 138</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>
@@ -1359,7 +1382,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>PK</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>PK</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Politische_Korrespondenz_Martins_V</rdfs:label>
         <skos:definition>RG IV</skos:definition>
     </owl:Class>
@@ -1383,7 +1406,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Presidenza_delle_Strade">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Presidenza delle Strade, reg. 2</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Presidenza delle Strade, reg. 2</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Presidenza_delle_Strade</rdfs:label>
         <skos:altLabel>Archivio di Stato di Roma, Achivio della Presidenza delle Strade n. 2, 151 vol.</skos:altLabel>
         <skos:definition>RG IX</skos:definition>
@@ -1409,34 +1432,11 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/Quittantiae">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fondo_Camerale_Primo"/>
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Q</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Q</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Quittantiae</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio di Stato di Roma, Fondo Camerale I, Quietanze per comuni o minuti servizi (RG V)</skos:altLabel>
         <skos:altLabel>Archivio di Stato di Roma, Fondo Camerale I: Quittantiae (RG VIII)</skos:altLabel>
         <skos:definition>RG IV, RG V, RG VIII, RG IX</skos:definition>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ablass"/>
-        <webprotege:stringInRG xml:lang="la">plen. indulg.</webprotege:stringInRG>
-        <webprotege:stringInRG xml:lang="la">rem. plen.</webprotege:stringInRG>
-        <rdfs:label xml:lang="de">Plenarablass</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg -->
-
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Ablass"/>
-        <webprotege:stringInRG>indulg. ad instar</webprotege:stringInRG>
-        <rdfs:label xml:lang="de">Ad-instar-Ablass</rdfs:label>
     </owl:Class>
     
 
@@ -1465,7 +1465,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Registra_Vaticana">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>V</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>V</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Registra_Vaticana</rdfs:label>
         <skos:definition>RG IV</skos:definition>
     </owl:Class>
@@ -1477,7 +1477,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Resignationes">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>R (RG VII, RG VIII), Resign. (RG IX, RG X)</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>R (RG VII, RG VIII), Resign. (RG IX, RG X)</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Resignationes</rdfs:label>
         <skos:altLabel>Archivio segreto Vaticano, Resignationes</skos:altLabel>
         <skos:definition>RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -1497,7 +1497,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Rota_Miscellanea">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Rota Misc.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Rota Misc.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Rota Miscellanea</rdfs:label>
         <skos:altLabel>Archivio Segreto Vaticano, Sacra Romana Rota, Miscellanea</skos:altLabel>
         <skos:definition>RG IX, RG X</skos:definition>
@@ -1521,7 +1521,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Secretaria_Camerae">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>Sec. Cam.</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Sec. Cam.</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Secretaria Camerae</rdfs:label>
         <skos:altLabel>Archivio Segreto Vaticano, Camera Apostolica, Secretacia Camerae</skos:altLabel>
         <skos:definition>RG IX, RG X</skos:definition>
@@ -1534,7 +1534,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Servitia_Minuta">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>SM</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>SM</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Servitia_Minuta</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Servitia Minuta</skos:altLabel>
         <skos:definition>RG IV, RG V, RG VI</skos:definition>
@@ -1571,7 +1571,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Supplikenregister">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>S</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>S</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Supplikenregister</rdfs:label>
         <skos:altLabel xml:lang="la">Archivio Segreto Vaticano, Registra Supplicationum</skos:altLabel>
         <skos:altLabel>Archivio Segreto Vaticano, Registri delle Suppliche (nur im RG IX)</skos:altLabel>
@@ -1586,7 +1586,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Taxae">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>T</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>T</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Taxae</rdfs:label>
         <skos:altLabel>Archivio Segreto Vaticano, Taxae (bullae et registri)</skos:altLabel>
         <skos:definition>RG IV, RG V, RG VI, RG VIII, RG IX, RG X</skos:definition>
@@ -1606,7 +1606,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Vatikanregister">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Fundstelle"/>
-        <webprotege:rgAbbreviation>V</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>V</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Vatikanregister</rdfs:label>
         <skos:altLabel>Archivio Segreto Vaticano, Registra Vaticana</skos:altLabel>
         <skos:definition>RG V, RG VI, RG VII, RG VIII, RG IX, RG X</skos:definition>
@@ -1673,7 +1673,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Dublin"/>
-        <webprotege:rgAbbreviation>Dublin</webprotege:rgAbbreviation>
+        <webprotege:hat_bewilligte_Dauer>Dublin</webprotege:hat_bewilligte_Dauer>
         <rdfs:label xml:lang="de">Ms._1223_1_(Series)_vol._4</rdfs:label>
         <skos:altLabel>Dublin, Trinity College Library, Ms. 1223 1 (Series) vol. 4</skos:altLabel>
         <skos:definition>RG VIII</skos:definition>

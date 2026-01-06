@@ -19,12 +19,12 @@
 <http://webprotege.stanford.edu/hat_Dauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 <http://webprotege.stanford.edu/hat_Dauer> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Dauer"@de .
 # 
-# http://webprotege.stanford.edu/rgAbbreviation
-<http://webprotege.stanford.edu/rgAbbreviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://webprotege.stanford.edu/rgAbbreviation> <http://www.w3.org/2000/01/rdf-schema#label> "hat_beantragte_Dauer"@de .
-<http://webprotege.stanford.edu/rgAbbreviation> <http://www.w3.org/2000/01/rdf-schema#label> "hat_bewilligte_Dauer"@de .
-<http://webprotege.stanford.edu/rgAbbreviation> <http://www.w3.org/2000/01/rdf-schema#label> "rgAbbreviation"@de .
-<http://webprotege.stanford.edu/rgAbbreviation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+# http://webprotege.stanford.edu/hat_bewilligte_Dauer
+<http://webprotege.stanford.edu/hat_bewilligte_Dauer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://webprotege.stanford.edu/hat_bewilligte_Dauer> <http://www.w3.org/2000/01/rdf-schema#label> "hat_beantragte_Dauer"@de .
+<http://webprotege.stanford.edu/hat_bewilligte_Dauer> <http://www.w3.org/2000/01/rdf-schema#label> "hat_bewilligte_Dauer"@de .
+<http://webprotege.stanford.edu/hat_bewilligte_Dauer> <http://www.w3.org/2000/01/rdf-schema#label> "rgAbbreviation"@de .
+<http://webprotege.stanford.edu/hat_bewilligte_Dauer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
 # 
 # http://webprotege.stanford.edu/stringInRG
 <http://webprotege.stanford.edu/stringInRG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -49,25 +49,12 @@
 # #################################################################
 # 
 # 
-# http://webprotege.stanford.edu/A0_hat_Quellenbeleg
-<http://webprotege.stanford.edu/A0_hat_Quellenbeleg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://webprotege.stanford.edu/A0_hat_Quellenbeleg> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Sublemma_RG> .
-<http://webprotege.stanford.edu/A0_hat_Quellenbeleg> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Quellenbeleg> .
-<http://webprotege.stanford.edu/A0_hat_Quellenbeleg> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Quellenbeleg"@de .
-# 
-# http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq
-<http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg> .
-<http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Kirchliche_Institution> .
-<http://webprotege.stanford.edu/R8ZMIsVdzKU4T5czaczW5wq> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Vorbild"@de .
-# 
-# http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn
-<http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Ablass> .
-<http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Akteur> .
-<http://webprotege.stanford.edu/RDYyCiUTK18WQ9kAxbKp7jn> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Ablassempfaenger"@de .
+# http://webprotege.stanford.edu/hat_Ablassempfaenger
+<http://webprotege.stanford.edu/hat_Ablassempfaenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/hat_Ablassempfaenger> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/hat_Ablassempfaenger> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Ablass> .
+<http://webprotege.stanford.edu/hat_Ablassempfaenger> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Akteur> .
+<http://webprotege.stanford.edu/hat_Ablassempfaenger> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Ablassempfaenger"@de .
 # 
 # http://webprotege.stanford.edu/hat_Activity
 <http://webprotege.stanford.edu/hat_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -104,6 +91,12 @@
 <http://webprotege.stanford.edu/hat_Ort> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Ort> .
 <http://webprotege.stanford.edu/hat_Ort> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Ort"@de .
 # 
+# http://webprotege.stanford.edu/hat_Quellenbeleg
+<http://webprotege.stanford.edu/hat_Quellenbeleg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/hat_Quellenbeleg> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Sublemma_RG> .
+<http://webprotege.stanford.edu/hat_Quellenbeleg> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Quellenbeleg> .
+<http://webprotege.stanford.edu/hat_Quellenbeleg> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Quellenbeleg"@de .
+# 
 # http://webprotege.stanford.edu/hat_Rolle
 <http://webprotege.stanford.edu/hat_Rolle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://webprotege.stanford.edu/hat_Rolle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
@@ -117,6 +110,13 @@
 <http://webprotege.stanford.edu/hat_Sozialer_Stand> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Person> .
 <http://webprotege.stanford.edu/hat_Sozialer_Stand> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Sozialer_Stand> .
 <http://webprotege.stanford.edu/hat_Sozialer_Stand> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Sozialer_Stand"@de .
+# 
+# http://webprotege.stanford.edu/hat_Vorbild
+<http://webprotege.stanford.edu/hat_Vorbild> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://webprotege.stanford.edu/hat_Vorbild> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://webprotege.stanford.edu/hat_Vorbild> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Ad-instar-Ablass> .
+<http://webprotege.stanford.edu/hat_Vorbild> <http://www.w3.org/2000/01/rdf-schema#range> <http://webprotege.stanford.edu/Kirchliche_Institution> .
+<http://webprotege.stanford.edu/hat_Vorbild> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Vorbild"@de .
 # 
 # http://webprotege.stanford.edu/hat_Weitere_Activity
 <http://webprotege.stanford.edu/hat_Weitere_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -145,13 +145,6 @@
 # #################################################################
 # 
 # 
-# http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72
-<http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Ablass> .
-<http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<http://webprotege.stanford.edu/RB9hDyM7XOsxY3qglI2vo72> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Ablasshöhe"@de .
-# 
 # http://webprotege.stanford.edu/has_RG_ID
 <http://webprotege.stanford.edu/has_RG_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://webprotege.stanford.edu/has_RG_ID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
@@ -175,6 +168,13 @@
 # http://webprotege.stanford.edu/has_source
 <http://webprotege.stanford.edu/has_source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://webprotege.stanford.edu/has_source> <http://www.w3.org/2000/01/rdf-schema#label> "has_source"@de .
+# 
+# http://webprotege.stanford.edu/hat_Ablasshoehe
+<http://webprotege.stanford.edu/hat_Ablasshoehe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://webprotege.stanford.edu/hat_Ablasshoehe> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://webprotege.stanford.edu/hat_Ablasshoehe> <http://www.w3.org/2000/01/rdf-schema#domain> <http://webprotege.stanford.edu/Ablass> .
+<http://webprotege.stanford.edu/hat_Ablasshoehe> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://webprotege.stanford.edu/hat_Ablasshoehe> <http://www.w3.org/2000/01/rdf-schema#label> "hat_Ablasshöhe"@de .
 # 
 # http://webprotege.stanford.edu/rg_Originaltext
 <http://webprotege.stanford.edu/rg_Originaltext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -214,7 +214,7 @@
 # http://webprotege.stanford.edu/Acta_Miscellanea
 <http://webprotege.stanford.edu/Acta_Miscellanea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Acta_Miscellanea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Acta_Miscellanea> <http://webprotege.stanford.edu/rgAbbreviation> "Acta Misc. (RG V), AM (RG X)" .
+<http://webprotege.stanford.edu/Acta_Miscellanea> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Acta Misc. (RG V), AM (RG X)" .
 <http://webprotege.stanford.edu/Acta_Miscellanea> <http://www.w3.org/2000/01/rdf-schema#label> "Acta_Miscellanea"@de .
 <http://webprotege.stanford.edu/Acta_Miscellanea> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Fondo Concistoriale, Acta Miscellanea"@la .
 <http://webprotege.stanford.edu/Acta_Miscellanea> <http://www.w3.org/2004/02/skos/core#definition> "RG V, RG X" .
@@ -230,6 +230,12 @@
 <http://webprotege.stanford.edu/Activitytyp> <http://www.w3.org/2000/01/rdf-schema#label> "Activitytyp"@de .
 <http://webprotege.stanford.edu/Activitytyp> <http://www.w3.org/2004/02/skos/core#definition> "Arten von Activity"@de .
 # 
+# http://webprotege.stanford.edu/Ad-instar-Ablass
+<http://webprotege.stanford.edu/Ad-instar-Ablass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/Ad-instar-Ablass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Ablass> .
+<http://webprotege.stanford.edu/Ad-instar-Ablass> <http://webprotege.stanford.edu/stringInRG> "indulg. ad instar" .
+<http://webprotege.stanford.edu/Ad-instar-Ablass> <http://www.w3.org/2000/01/rdf-schema#label> "Ad-instar-Ablass"@de .
+# 
 # http://webprotege.stanford.edu/Akteur
 <http://webprotege.stanford.edu/Akteur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Akteur> <http://www.w3.org/2000/01/rdf-schema#label> "Akteur"@de .
@@ -242,7 +248,7 @@
 # http://webprotege.stanford.edu/Annatenregister
 <http://webprotege.stanford.edu/Annatenregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Annatenregister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Annatenregister> <http://webprotege.stanford.edu/rgAbbreviation> "A" .
+<http://webprotege.stanford.edu/Annatenregister> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "A" .
 <http://webprotege.stanford.edu/Annatenregister> <http://www.w3.org/2000/01/rdf-schema#label> "Annatenregister"@de .
 <http://webprotege.stanford.edu/Annatenregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Annatae"@la .
 <http://webprotege.stanford.edu/Annatenregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Libri obligationum annatarum"@la .
@@ -251,7 +257,7 @@
 # http://webprotege.stanford.edu/Archivium_Arcis
 <http://webprotege.stanford.edu/Archivium_Arcis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Archivium_Arcis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Archivium_Arcis> <http://webprotege.stanford.edu/rgAbbreviation> "A. A." .
+<http://webprotege.stanford.edu/Archivium_Arcis> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "A. A." .
 <http://webprotege.stanford.edu/Archivium_Arcis> <http://www.w3.org/2000/01/rdf-schema#label> "Archivium_Arcis"@de .
 <http://webprotege.stanford.edu/Archivium_Arcis> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio segreto Vaticano, Archivium Arcis" .
 <http://webprotege.stanford.edu/Archivium_Arcis> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -259,7 +265,7 @@
 # http://webprotege.stanford.edu/Armarien
 <http://webprotege.stanford.edu/Armarien> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Armarien> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Armarien> <http://webprotege.stanford.edu/rgAbbreviation> "Arm." .
+<http://webprotege.stanford.edu/Armarien> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Arm." .
 <http://webprotege.stanford.edu/Armarien> <http://www.w3.org/2000/01/rdf-schema#label> "Armarien"@de .
 <http://webprotege.stanford.edu/Armarien> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Armadi"@la .
 <http://webprotege.stanford.edu/Armarien> <http://www.w3.org/2004/02/skos/core#definition> "RG II, RG III, RG V, RG VI, RG VII, RG VIII, RG IX, RG X" .
@@ -273,7 +279,7 @@
 # http://webprotege.stanford.edu/Brevenregister
 <http://webprotege.stanford.edu/Brevenregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Brevenregister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Brevenregister> <http://webprotege.stanford.edu/rgAbbreviation> "B" .
+<http://webprotege.stanford.edu/Brevenregister> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "B" .
 <http://webprotege.stanford.edu/Brevenregister> <http://www.w3.org/2000/01/rdf-schema#label> "Brevenregister"@de .
 <http://webprotege.stanford.edu/Brevenregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Brevenminuten" .
 <http://webprotege.stanford.edu/Brevenregister> <http://www.w3.org/2004/02/skos/core#definition> "RG X" .
@@ -287,7 +293,7 @@
 # http://webprotege.stanford.edu/Cod_Barb_Lat
 <http://webprotege.stanford.edu/Cod_Barb_Lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Barb_Lat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Barb_Lat> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Barb. lat. (RG VI, RG IX, RG X), Barb. lat. (RG VIII)" .
+<http://webprotege.stanford.edu/Cod_Barb_Lat> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Barb. lat. (RG VI, RG IX, RG X), Barb. lat. (RG VIII)" .
 <http://webprotege.stanford.edu/Cod_Barb_Lat> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Barb._Lat."@de .
 <http://webprotege.stanford.edu/Cod_Barb_Lat> <http://www.w3.org/2004/02/skos/core#altLabel> "Biblioteca Vaticana, Codices Barberiniani latini"@la .
 <http://webprotege.stanford.edu/Cod_Barb_Lat> <http://www.w3.org/2004/02/skos/core#definition> "RG I, RG VI, RG VIII, RG IX, RG X" .
@@ -295,7 +301,7 @@
 # http://webprotege.stanford.edu/Cod_Cappon
 <http://webprotege.stanford.edu/Cod_Cappon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Cappon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Cappon> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Cappon." .
+<http://webprotege.stanford.edu/Cod_Cappon> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Cappon." .
 <http://webprotege.stanford.edu/Cod_Cappon> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Cappon."@de .
 <http://webprotege.stanford.edu/Cod_Cappon> <http://www.w3.org/2004/02/skos/core#altLabel> "Biblioteca Apostolica Vaticana, Codices Capponiani" .
 <http://webprotege.stanford.edu/Cod_Cappon> <http://www.w3.org/2004/02/skos/core#definition> "RG X" .
@@ -303,7 +309,7 @@
 # http://webprotege.stanford.edu/Cod_Chig_lat
 <http://webprotege.stanford.edu/Cod_Chig_lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Chig_lat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Chig_lat> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Chig. lat. (RG V), Chigi (RG VIII), Cod. Chigi (RG IX, RG X)" .
+<http://webprotege.stanford.edu/Cod_Chig_lat> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Chig. lat. (RG V), Chigi (RG VIII), Cod. Chigi (RG IX, RG X)" .
 <http://webprotege.stanford.edu/Cod_Chig_lat> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Chig._lat."@de .
 <http://webprotege.stanford.edu/Cod_Chig_lat> <http://www.w3.org/2004/02/skos/core#altLabel> "Biblioteca Vaticana, Fondo Chigi (RG VIII, RG IX)" .
 <http://webprotege.stanford.edu/Cod_Chig_lat> <http://www.w3.org/2004/02/skos/core#definition> "RG V, RG VI, RG VIII, RG IX, RG X" .
@@ -311,13 +317,13 @@
 # http://webprotege.stanford.edu/Cod_Ottob_Lat
 <http://webprotege.stanford.edu/Cod_Ottob_Lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Ottob_Lat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Ottob_Lat> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Ottob. Lat." .
+<http://webprotege.stanford.edu/Cod_Ottob_Lat> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Ottob. Lat." .
 <http://webprotege.stanford.edu/Cod_Ottob_Lat> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Ottob._Lat."@de .
 # 
 # http://webprotege.stanford.edu/Cod_Reg_Lat
 <http://webprotege.stanford.edu/Cod_Reg_Lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Reg_Lat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Reg_Lat> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Reg. lat. (RG VI), Cod. Regin. lat. (RG IX)" .
+<http://webprotege.stanford.edu/Cod_Reg_Lat> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Reg. lat. (RG VI), Cod. Regin. lat. (RG IX)" .
 <http://webprotege.stanford.edu/Cod_Reg_Lat> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Reg._Lat."@de .
 <http://webprotege.stanford.edu/Cod_Reg_Lat> <http://www.w3.org/2004/02/skos/core#altLabel> "Bibliotheca Vaticana. Codices Reginenses Latini (RG IX)" .
 <http://webprotege.stanford.edu/Cod_Reg_Lat> <http://www.w3.org/2004/02/skos/core#definition> "RG VI, RG IX" .
@@ -325,7 +331,7 @@
 # http://webprotege.stanford.edu/Cod_Urbin_Lat
 <http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Urbin. Lat." .
+<http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Urbin. Lat." .
 <http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Urbin._Lat."@de .
 <http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://www.w3.org/2004/02/skos/core#altLabel> "Biblioteca Apostolica Vaticana, Codices Urbiniati Latini" .
 <http://webprotege.stanford.edu/Cod_Urbin_Lat> <http://www.w3.org/2004/02/skos/core#definition> "RG X" .
@@ -333,7 +339,7 @@
 # http://webprotege.stanford.edu/Cod_Vat_Lat
 <http://webprotege.stanford.edu/Cod_Vat_Lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Cod_Vat_Lat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Cod_Vat_Lat> <http://webprotege.stanford.edu/rgAbbreviation> "Cod. Vat. lat." .
+<http://webprotege.stanford.edu/Cod_Vat_Lat> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Cod. Vat. lat." .
 <http://webprotege.stanford.edu/Cod_Vat_Lat> <http://www.w3.org/2000/01/rdf-schema#label> "Cod._Vat._Lat."@de .
 <http://webprotege.stanford.edu/Cod_Vat_Lat> <http://www.w3.org/2004/02/skos/core#altLabel> "Bibliotheca Vaticana, Codices Vaticani Latini (RG IX)" .
 <http://webprotege.stanford.edu/Cod_Vat_Lat> <http://www.w3.org/2004/02/skos/core#definition> "RG II, RG VI, RG IX, RG X" .
@@ -341,7 +347,7 @@
 # http://webprotege.stanford.edu/Codices_Palatini_latini
 <http://webprotege.stanford.edu/Codices_Palatini_latini> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Codices_Palatini_latini> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Codices_Palatini_latini> <http://webprotege.stanford.edu/rgAbbreviation> "Palat. lat." .
+<http://webprotege.stanford.edu/Codices_Palatini_latini> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Palat. lat." .
 <http://webprotege.stanford.edu/Codices_Palatini_latini> <http://www.w3.org/2000/01/rdf-schema#label> "Codices Palatini latini"@de .
 <http://webprotege.stanford.edu/Codices_Palatini_latini> <http://www.w3.org/2004/02/skos/core#altLabel> "Biblioteca Vaticana, Codices Palatini latini" .
 <http://webprotege.stanford.edu/Codices_Palatini_latini> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -349,7 +355,7 @@
 # http://webprotege.stanford.edu/Codices_Urbinates_latini
 <http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://webprotege.stanford.edu/rgAbbreviation> "Urb. lat." .
+<http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Urb. lat." .
 <http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://www.w3.org/2000/01/rdf-schema#label> "Codices_Urbinates_latini"@de .
 <http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://www.w3.org/2004/02/skos/core#altLabel> "Biblioteca Vaticana, Codices Urbinates latini" .
 <http://webprotege.stanford.edu/Codices_Urbinates_latini> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -370,13 +376,13 @@
 # http://webprotege.stanford.edu/Distributiones_bullarum
 <http://webprotege.stanford.edu/Distributiones_bullarum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Distributiones_bullarum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Distributiones_bullarum> <http://webprotege.stanford.edu/rgAbbreviation> "DB" .
+<http://webprotege.stanford.edu/Distributiones_bullarum> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "DB" .
 <http://webprotege.stanford.edu/Distributiones_bullarum> <http://www.w3.org/2000/01/rdf-schema#label> "Distributiones_bullarum"@de .
 # 
 # http://webprotege.stanford.edu/Diversa_Cameralia
 <http://webprotege.stanford.edu/Diversa_Cameralia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Diversa_Cameralia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Diversa_Cameralia> <http://webprotege.stanford.edu/rgAbbreviation> "DC" .
+<http://webprotege.stanford.edu/Diversa_Cameralia> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "DC" .
 <http://webprotege.stanford.edu/Diversa_Cameralia> <http://www.w3.org/2000/01/rdf-schema#label> "Diversa_Cameralia"@de .
 <http://webprotege.stanford.edu/Diversa_Cameralia> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Diversa Cameralia"@la .
 <http://webprotege.stanford.edu/Diversa_Cameralia> <http://www.w3.org/2004/02/skos/core#definition> "RG II, RG III, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X" .
@@ -410,7 +416,7 @@
 # http://webprotege.stanford.edu/Fondo_Camerale
 <http://webprotege.stanford.edu/Fondo_Camerale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Fondo_Camerale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Fondo_Camerale> <http://webprotege.stanford.edu/rgAbbreviation> "FC" .
+<http://webprotege.stanford.edu/Fondo_Camerale> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "FC" .
 <http://webprotege.stanford.edu/Fondo_Camerale> <http://www.w3.org/2000/01/rdf-schema#label> "Fondo_Camerale"@de .
 # 
 # http://webprotege.stanford.edu/Fondo_Camerale_Primo
@@ -420,7 +426,7 @@
 # http://webprotege.stanford.edu/Fondo_Domenicani
 <http://webprotege.stanford.edu/Fondo_Domenicani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Fondo_Domenicani> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Fondo_Domenicani> <http://webprotege.stanford.edu/rgAbbreviation> "Fondo Dom." .
+<http://webprotege.stanford.edu/Fondo_Domenicani> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Fondo Dom." .
 <http://webprotege.stanford.edu/Fondo_Domenicani> <http://www.w3.org/2000/01/rdf-schema#label> "Fondo_Domenicani"@de .
 <http://webprotege.stanford.edu/Fondo_Domenicani> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio segreto Vaticano, Fondo Domenicani" .
 <http://webprotege.stanford.edu/Fondo_Domenicani> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -428,7 +434,7 @@
 # http://webprotege.stanford.edu/Fondo_Veneto
 <http://webprotege.stanford.edu/Fondo_Veneto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Fondo_Veneto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Fondo_Veneto> <http://webprotege.stanford.edu/rgAbbreviation> "Fondo Veneto" .
+<http://webprotege.stanford.edu/Fondo_Veneto> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Fondo Veneto" .
 <http://webprotege.stanford.edu/Fondo_Veneto> <http://www.w3.org/2000/01/rdf-schema#label> "Fondo_Veneto"@de .
 <http://webprotege.stanford.edu/Fondo_Veneto> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio segreto Vaticano, Fondo Veneto" .
 <http://webprotege.stanford.edu/Fondo_Veneto> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -479,7 +485,7 @@
 # http://webprotege.stanford.edu/IE_III
 <http://webprotege.stanford.edu/IE_III> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/IE_III> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Florenz> .
-<http://webprotege.stanford.edu/IE_III> <http://webprotege.stanford.edu/rgAbbreviation> "IE III" .
+<http://webprotege.stanford.edu/IE_III> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "IE III" .
 <http://webprotege.stanford.edu/IE_III> <http://www.w3.org/2000/01/rdf-schema#label> "IE_III"@de .
 <http://webprotege.stanford.edu/IE_III> <http://www.w3.org/2004/02/skos/core#altLabel> "Florenz, Bibl. nazionale XIX 79" .
 <http://webprotege.stanford.edu/IE_III> <http://www.w3.org/2004/02/skos/core#definition> "RG III" .
@@ -487,7 +493,7 @@
 # http://webprotege.stanford.edu/Index_Cedularum_Consistorialium
 <http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://webprotege.stanford.edu/rgAbbreviation> "Ind. Ced." .
+<http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Ind. Ced." .
 <http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://www.w3.org/2000/01/rdf-schema#label> "Index_Cedularum_Consistorialium"@de .
 <http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio segreto Vaticano, Index Cedularum Consistorialium" .
 <http://webprotege.stanford.edu/Index_Cedularum_Consistorialium> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -495,7 +501,7 @@
 # http://webprotege.stanford.edu/Indici
 <http://webprotege.stanford.edu/Indici> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Indici> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Indici> <http://webprotege.stanford.edu/rgAbbreviation> "Indice (RG V), I (RG VII, RG VIII, RG IX)" .
+<http://webprotege.stanford.edu/Indici> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Indice (RG V), I (RG VII, RG VIII, RG IX)" .
 <http://webprotege.stanford.edu/Indici> <http://www.w3.org/2000/01/rdf-schema#label> "Indici"@de .
 <http://webprotege.stanford.edu/Indici> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Indici"@la .
 <http://webprotege.stanford.edu/Indici> <http://www.w3.org/2004/02/skos/core#definition> "RG IV, RG V, RG VII, RG VIII, RG IX, RG X" .
@@ -509,7 +515,7 @@
 # http://webprotege.stanford.edu/Instrumenta_Miscellanea
 <http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://webprotege.stanford.edu/rgAbbreviation> "IM (RG V), Intr. Misc. (RG IX, RG X), Instrum. Miscellanea (RG II)" .
+<http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "IM (RG V), Intr. Misc. (RG IX, RG X), Instrum. Miscellanea (RG II)" .
 <http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://www.w3.org/2000/01/rdf-schema#label> "Instrumenta_Miscellanea"@de .
 <http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Instrumenta Miscellanea"@la .
 <http://webprotege.stanford.edu/Instrumenta_Miscellanea> <http://www.w3.org/2004/02/skos/core#definition> "RG II, RG IV, RG V, RG IX, RG X" .
@@ -517,8 +523,8 @@
 # http://webprotege.stanford.edu/Introitus_et_Exitus
 <http://webprotege.stanford.edu/Introitus_et_Exitus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Introitus_et_Exitus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Introitus_et_Exitus> <http://webprotege.stanford.edu/rgAbbreviation> "I. E. (RG I)" .
-<http://webprotege.stanford.edu/Introitus_et_Exitus> <http://webprotege.stanford.edu/rgAbbreviation> "IE" .
+<http://webprotege.stanford.edu/Introitus_et_Exitus> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "I. E. (RG I)" .
+<http://webprotege.stanford.edu/Introitus_et_Exitus> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "IE" .
 <http://webprotege.stanford.edu/Introitus_et_Exitus> <http://www.w3.org/2000/01/rdf-schema#label> "Introitus_et_Exitus"@de .
 <http://webprotege.stanford.edu/Introitus_et_Exitus> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Introitus et Exitus"@la .
 <http://webprotege.stanford.edu/Introitus_et_Exitus> <http://www.w3.org/2004/02/skos/core#definition> "RG I, RG IV, RG V, RG VI, RG VII, RG VIII, RG IX, RG X" .
@@ -526,7 +532,7 @@
 # http://webprotege.stanford.edu/Kammerregister
 <http://webprotege.stanford.edu/Kammerregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Kammerregister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Kammerregister> <http://webprotege.stanford.edu/rgAbbreviation> "Reg. Vat." .
+<http://webprotege.stanford.edu/Kammerregister> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Reg. Vat." .
 <http://webprotege.stanford.edu/Kammerregister> <http://www.w3.org/2000/01/rdf-schema#label> "Kammerregister"@de .
 <http://webprotege.stanford.edu/Kammerregister> <http://www.w3.org/2004/02/skos/core#definition> "RG III" .
 # 
@@ -593,7 +599,7 @@
 # http://webprotege.stanford.edu/Kollektorie
 <http://webprotege.stanford.edu/Kollektorie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Kollektorie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Kollektorie> <http://webprotege.stanford.edu/rgAbbreviation> "K" .
+<http://webprotege.stanford.edu/Kollektorie> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "K" .
 <http://webprotege.stanford.edu/Kollektorie> <http://www.w3.org/2000/01/rdf-schema#label> "Kollektorie"@de .
 # 
 # http://webprotege.stanford.edu/Kommunregister
@@ -605,7 +611,7 @@
 # http://webprotege.stanford.edu/Lateranregister
 <http://webprotege.stanford.edu/Lateranregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Lateranregister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Lateranregister> <http://webprotege.stanford.edu/rgAbbreviation> "L (RG V, RG VI, RG VII, RG VIII, RG IX, RG X), Reg. Lat. (RG II, RG III)" .
+<http://webprotege.stanford.edu/Lateranregister> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "L (RG V, RG VI, RG VII, RG VIII, RG IX, RG X), Reg. Lat. (RG II, RG III)" .
 <http://webprotege.stanford.edu/Lateranregister> <http://www.w3.org/2000/01/rdf-schema#label> "Lateranregister"@de .
 <http://webprotege.stanford.edu/Lateranregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Registra Lateranensia (RG V, RG VII, RG VIII)"@la .
 <http://webprotege.stanford.edu/Lateranregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Registra Lateranensia"@la .
@@ -615,7 +621,7 @@
 # http://webprotege.stanford.edu/Libri_Formatarum
 <http://webprotege.stanford.edu/Libri_Formatarum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Libri_Formatarum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Libri_Formatarum> <http://webprotege.stanford.edu/rgAbbreviation> "F" .
+<http://webprotege.stanford.edu/Libri_Formatarum> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "F" .
 <http://webprotege.stanford.edu/Libri_Formatarum> <http://www.w3.org/2000/01/rdf-schema#label> "Libri_Formatarum"@de .
 <http://webprotege.stanford.edu/Libri_Formatarum> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Libri Formatarum"@la .
 <http://webprotege.stanford.edu/Libri_Formatarum> <http://www.w3.org/2004/02/skos/core#altLabel> "Liber Formatarum" .
@@ -624,7 +630,7 @@
 # http://webprotege.stanford.edu/Libri_Officialium
 <http://webprotege.stanford.edu/Libri_Officialium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Libri_Officialium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Libri_Officialium> <http://webprotege.stanford.edu/rgAbbreviation> "LO" .
+<http://webprotege.stanford.edu/Libri_Officialium> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "LO" .
 <http://webprotege.stanford.edu/Libri_Officialium> <http://www.w3.org/2000/01/rdf-schema#label> "Libri_Officialium"@de .
 <http://webprotege.stanford.edu/Libri_Officialium> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio di Stato di Roma, Fondo Camerale I, Libri Officialium"@la .
 <http://webprotege.stanford.edu/Libri_Officialium> <http://www.w3.org/2004/02/skos/core#altLabel> "Ufficiali camerali" .
@@ -633,7 +639,7 @@
 # http://webprotege.stanford.edu/Mandata
 <http://webprotege.stanford.edu/Mandata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Mandata> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Mandata> <http://webprotege.stanford.edu/rgAbbreviation> "M" .
+<http://webprotege.stanford.edu/Mandata> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "M" .
 <http://webprotege.stanford.edu/Mandata> <http://www.w3.org/2000/01/rdf-schema#label> "Mandata"@de .
 <http://webprotege.stanford.edu/Mandata> <http://www.w3.org/2004/02/skos/core#altLabel> "Mandata (Rom. Staatsarchiv)" .
 <http://webprotege.stanford.edu/Mandata> <http://www.w3.org/2004/02/skos/core#definition> "RG IV" .
@@ -641,7 +647,7 @@
 # http://webprotege.stanford.edu/Miscellanea
 <http://webprotege.stanford.edu/Miscellanea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Miscellanea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Miscellanea> <http://webprotege.stanford.edu/rgAbbreviation> "Misc. Arm. (RG VIII)" .
+<http://webprotege.stanford.edu/Miscellanea> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Misc. Arm. (RG VIII)" .
 <http://webprotege.stanford.edu/Miscellanea> <http://www.w3.org/2000/01/rdf-schema#label> "Miscellanea"@de .
 <http://webprotege.stanford.edu/Miscellanea> <http://www.w3.org/2004/02/skos/core#altLabel> "Arch. Vat. Acta consistor. Mise. to 1. (RG III)" .
 <http://webprotege.stanford.edu/Miscellanea> <http://www.w3.org/2004/02/skos/core#altLabel> "Arch. Vat. Mise. Arm. XII to 121A. (RG III)" .
@@ -660,7 +666,7 @@
 # http://webprotege.stanford.edu/Obligationes
 <http://webprotege.stanford.edu/Obligationes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Obligationes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Obligationes> <http://webprotege.stanford.edu/rgAbbreviation> "Obl. (RG I, RG II)" .
+<http://webprotege.stanford.edu/Obligationes> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Obl. (RG I, RG II)" .
 <http://webprotege.stanford.edu/Obligationes> <http://www.w3.org/2000/01/rdf-schema#label> "Obligationes"@de .
 <http://webprotege.stanford.edu/Obligationes> <http://www.w3.org/2004/02/skos/core#altLabel> "Arch. Vat. Fondo dell' Arch. di Stato Oblig. to. (RG III)" .
 <http://webprotege.stanford.edu/Obligationes> <http://www.w3.org/2004/02/skos/core#definition> "RG I, RG II, RG III" .
@@ -668,7 +674,7 @@
 # http://webprotege.stanford.edu/Obligationes_communes
 <http://webprotege.stanford.edu/Obligationes_communes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Obligationes_communes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Obligationes_communes> <http://webprotege.stanford.edu/rgAbbreviation> "OC" .
+<http://webprotege.stanford.edu/Obligationes_communes> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "OC" .
 <http://webprotege.stanford.edu/Obligationes_communes> <http://www.w3.org/2000/01/rdf-schema#label> "Obligationes_communes"@de .
 <http://webprotege.stanford.edu/Obligationes_communes> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Obligationes communes"@la .
 <http://webprotege.stanford.edu/Obligationes_communes> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Camera Apostolica, Obligationes pro Communibus Servitiis      (RG IX)" .
@@ -677,7 +683,7 @@
 # http://webprotege.stanford.edu/Obligationes_et_Solutiones
 <http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://webprotege.stanford.edu/rgAbbreviation> "OS, Oblig. et Solut. (RG III), O (RG IV)" .
+<http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "OS, Oblig. et Solut. (RG III), O (RG IV)" .
 <http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://www.w3.org/2000/01/rdf-schema#label> "Obligationes_et_Solutiones"@de .
 <http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Obligationes et Solutiones"@la .
 <http://webprotege.stanford.edu/Obligationes_et_Solutiones> <http://www.w3.org/2004/02/skos/core#altLabel> "Arch. Vatic. Oblig. et Solut. (RG III)" .
@@ -686,7 +692,7 @@
 # http://webprotege.stanford.edu/Obligationes_particulares
 <http://webprotege.stanford.edu/Obligationes_particulares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Obligationes_particulares> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Obligationes_particulares> <http://webprotege.stanford.edu/rgAbbreviation> "OP" .
+<http://webprotege.stanford.edu/Obligationes_particulares> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "OP" .
 <http://webprotege.stanford.edu/Obligationes_particulares> <http://www.w3.org/2000/01/rdf-schema#label> "Obligationes_particulares"@de .
 <http://webprotege.stanford.edu/Obligationes_particulares> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Obligationes particulares"@la .
 <http://webprotege.stanford.edu/Obligationes_particulares> <http://www.w3.org/2004/02/skos/core#definition> "RG IV, RG V, RG VII, RG VIII, RG IX, RG X" .
@@ -710,7 +716,7 @@
 # http://webprotege.stanford.edu/Paris_L_25_A_9
 <http://webprotege.stanford.edu/Paris_L_25_A_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Paris_L_25_A_9> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Paris> .
-<http://webprotege.stanford.edu/Paris_L_25_A_9> <http://webprotege.stanford.edu/rgAbbreviation> "Paris L 25 A 9" .
+<http://webprotege.stanford.edu/Paris_L_25_A_9> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Paris L 25 A 9" .
 <http://webprotege.stanford.edu/Paris_L_25_A_9> <http://www.w3.org/2000/01/rdf-schema#label> "Paris_L_25_A_9"@de .
 <http://webprotege.stanford.edu/Paris_L_25_A_9> <http://www.w3.org/2004/02/skos/core#altLabel> "Paris, Archives Nationales" .
 <http://webprotege.stanford.edu/Paris_L_25_A_9> <http://www.w3.org/2004/02/skos/core#definition> "RG X" .
@@ -749,10 +755,17 @@
 <http://webprotege.stanford.edu/Pfarrkirche> <http://www.w3.org/2000/01/rdf-schema#label> "Pfarrkirche"@de .
 <http://webprotege.stanford.edu/Pfarrkirche> <http://www.w3.org/2004/02/skos/core#definition> "Eine Pfarrkirche ist die Hauptkirche einer Pfarrei, in der ein Pfarrer tätig ist und regelmäßig Gottesdienste, Sakramente und seelsorgliche Aufgaben erfüllt."@de .
 # 
+# http://webprotege.stanford.edu/Plenarablass
+<http://webprotege.stanford.edu/Plenarablass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://webprotege.stanford.edu/Plenarablass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Ablass> .
+<http://webprotege.stanford.edu/Plenarablass> <http://webprotege.stanford.edu/stringInRG> "plen. indulg."@la .
+<http://webprotege.stanford.edu/Plenarablass> <http://webprotege.stanford.edu/stringInRG> "rem. plen."@la .
+<http://webprotege.stanford.edu/Plenarablass> <http://www.w3.org/2000/01/rdf-schema#label> "Plenarablass"@de .
+# 
 # http://webprotege.stanford.edu/Pluteus
 <http://webprotege.stanford.edu/Pluteus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Pluteus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Pluteus> <http://webprotege.stanford.edu/rgAbbreviation> "Plut." .
+<http://webprotege.stanford.edu/Pluteus> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Plut." .
 <http://webprotege.stanford.edu/Pluteus> <http://www.w3.org/2000/01/rdf-schema#label> "Pluteus"@de .
 <http://webprotege.stanford.edu/Pluteus> <http://www.w3.org/2004/02/skos/core#altLabel> "Plut.:Florenz, Bibliotheca Laurentiana, Pluteus 90 sup., Cod. 138" .
 <http://webprotege.stanford.edu/Pluteus> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
@@ -766,7 +779,7 @@
 # http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V
 <http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V> <http://webprotege.stanford.edu/rgAbbreviation> "PK" .
+<http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "PK" .
 <http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V> <http://www.w3.org/2000/01/rdf-schema#label> "Politische_Korrespondenz_Martins_V"@de .
 <http://webprotege.stanford.edu/Politische_Korrespondenz_Martins_V> <http://www.w3.org/2004/02/skos/core#definition> "RG IV" .
 # 
@@ -780,7 +793,7 @@
 # http://webprotege.stanford.edu/Presidenza_delle_Strade
 <http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://webprotege.stanford.edu/rgAbbreviation> "Presidenza delle Strade, reg. 2" .
+<http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Presidenza delle Strade, reg. 2" .
 <http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://www.w3.org/2000/01/rdf-schema#label> "Presidenza_delle_Strade"@de .
 <http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio di Stato di Roma, Achivio della Presidenza delle Strade n. 2, 151 vol." .
 <http://webprotege.stanford.edu/Presidenza_delle_Strade> <http://www.w3.org/2004/02/skos/core#definition> "RG IX" .
@@ -796,24 +809,11 @@
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fondo_Camerale_Primo> .
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Quittantiae> <http://webprotege.stanford.edu/rgAbbreviation> "Q" .
+<http://webprotege.stanford.edu/Quittantiae> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Q" .
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/2000/01/rdf-schema#label> "Quittantiae"@de .
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio di Stato di Roma, Fondo Camerale I, Quietanze per comuni o minuti servizi (RG V)"@la .
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio di Stato di Roma, Fondo Camerale I: Quittantiae (RG VIII)" .
 <http://webprotege.stanford.edu/Quittantiae> <http://www.w3.org/2004/02/skos/core#definition> "RG IV, RG V, RG VIII, RG IX" .
-# 
-# http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS
-<http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Ablass> .
-<http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS> <http://webprotege.stanford.edu/stringInRG> "plen. indulg."@la .
-<http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS> <http://webprotege.stanford.edu/stringInRG> "rem. plen."@la .
-<http://webprotege.stanford.edu/R9a9KGAUwW5MmY6bZNF46rS> <http://www.w3.org/2000/01/rdf-schema#label> "Plenarablass"@de .
-# 
-# http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg
-<http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Ablass> .
-<http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg> <http://webprotege.stanford.edu/stringInRG> "indulg. ad instar" .
-<http://webprotege.stanford.edu/RYG4TMialuKkgMXCthNtIg> <http://www.w3.org/2000/01/rdf-schema#label> "Ad-instar-Ablass"@de .
 # 
 # http://webprotege.stanford.edu/Regest
 <http://webprotege.stanford.edu/Regest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -828,14 +828,14 @@
 # http://webprotege.stanford.edu/Registra_Vaticana
 <http://webprotege.stanford.edu/Registra_Vaticana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Registra_Vaticana> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Registra_Vaticana> <http://webprotege.stanford.edu/rgAbbreviation> "V" .
+<http://webprotege.stanford.edu/Registra_Vaticana> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "V" .
 <http://webprotege.stanford.edu/Registra_Vaticana> <http://www.w3.org/2000/01/rdf-schema#label> "Registra_Vaticana"@de .
 <http://webprotege.stanford.edu/Registra_Vaticana> <http://www.w3.org/2004/02/skos/core#definition> "RG IV" .
 # 
 # http://webprotege.stanford.edu/Resignationes
 <http://webprotege.stanford.edu/Resignationes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Resignationes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Resignationes> <http://webprotege.stanford.edu/rgAbbreviation> "R (RG VII, RG VIII), Resign. (RG IX, RG X)" .
+<http://webprotege.stanford.edu/Resignationes> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "R (RG VII, RG VIII), Resign. (RG IX, RG X)" .
 <http://webprotege.stanford.edu/Resignationes> <http://www.w3.org/2000/01/rdf-schema#label> "Resignationes"@de .
 <http://webprotege.stanford.edu/Resignationes> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio segreto Vaticano, Resignationes" .
 <http://webprotege.stanford.edu/Resignationes> <http://www.w3.org/2004/02/skos/core#definition> "RG VII, RG VIII, RG IX, RG X" .
@@ -846,7 +846,7 @@
 # http://webprotege.stanford.edu/Rota_Miscellanea
 <http://webprotege.stanford.edu/Rota_Miscellanea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Rota_Miscellanea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Rota_Miscellanea> <http://webprotege.stanford.edu/rgAbbreviation> "Rota Misc." .
+<http://webprotege.stanford.edu/Rota_Miscellanea> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Rota Misc." .
 <http://webprotege.stanford.edu/Rota_Miscellanea> <http://www.w3.org/2000/01/rdf-schema#label> "Rota Miscellanea"@de .
 <http://webprotege.stanford.edu/Rota_Miscellanea> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Sacra Romana Rota, Miscellanea" .
 <http://webprotege.stanford.edu/Rota_Miscellanea> <http://www.w3.org/2004/02/skos/core#definition> "RG IX, RG X" .
@@ -860,7 +860,7 @@
 # http://webprotege.stanford.edu/Secretaria_Camerae
 <http://webprotege.stanford.edu/Secretaria_Camerae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Secretaria_Camerae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Secretaria_Camerae> <http://webprotege.stanford.edu/rgAbbreviation> "Sec. Cam." .
+<http://webprotege.stanford.edu/Secretaria_Camerae> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Sec. Cam." .
 <http://webprotege.stanford.edu/Secretaria_Camerae> <http://www.w3.org/2000/01/rdf-schema#label> "Secretaria Camerae"@de .
 <http://webprotege.stanford.edu/Secretaria_Camerae> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Camera Apostolica, Secretacia Camerae" .
 <http://webprotege.stanford.edu/Secretaria_Camerae> <http://www.w3.org/2004/02/skos/core#definition> "RG IX, RG X" .
@@ -868,7 +868,7 @@
 # http://webprotege.stanford.edu/Servitia_Minuta
 <http://webprotege.stanford.edu/Servitia_Minuta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Servitia_Minuta> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Servitia_Minuta> <http://webprotege.stanford.edu/rgAbbreviation> "SM" .
+<http://webprotege.stanford.edu/Servitia_Minuta> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "SM" .
 <http://webprotege.stanford.edu/Servitia_Minuta> <http://www.w3.org/2000/01/rdf-schema#label> "Servitia_Minuta"@de .
 <http://webprotege.stanford.edu/Servitia_Minuta> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Servitia Minuta"@la .
 <http://webprotege.stanford.edu/Servitia_Minuta> <http://www.w3.org/2004/02/skos/core#definition> "RG IV, RG V, RG VI" .
@@ -887,7 +887,7 @@
 # http://webprotege.stanford.edu/Supplikenregister
 <http://webprotege.stanford.edu/Supplikenregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Supplikenregister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Supplikenregister> <http://webprotege.stanford.edu/rgAbbreviation> "S" .
+<http://webprotege.stanford.edu/Supplikenregister> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "S" .
 <http://webprotege.stanford.edu/Supplikenregister> <http://www.w3.org/2000/01/rdf-schema#label> "Supplikenregister"@de .
 <http://webprotege.stanford.edu/Supplikenregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Registra Supplicationum"@la .
 <http://webprotege.stanford.edu/Supplikenregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Registri delle Suppliche (nur im RG IX)" .
@@ -897,7 +897,7 @@
 # http://webprotege.stanford.edu/Taxae
 <http://webprotege.stanford.edu/Taxae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Taxae> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Taxae> <http://webprotege.stanford.edu/rgAbbreviation> "T" .
+<http://webprotege.stanford.edu/Taxae> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "T" .
 <http://webprotege.stanford.edu/Taxae> <http://www.w3.org/2000/01/rdf-schema#label> "Taxae"@de .
 <http://webprotege.stanford.edu/Taxae> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Taxae (bullae et registri)" .
 <http://webprotege.stanford.edu/Taxae> <http://www.w3.org/2004/02/skos/core#definition> "RG IV, RG V, RG VI, RG VIII, RG IX, RG X" .
@@ -908,7 +908,7 @@
 # http://webprotege.stanford.edu/Vatikanregister
 <http://webprotege.stanford.edu/Vatikanregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Vatikanregister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Fundstelle> .
-<http://webprotege.stanford.edu/Vatikanregister> <http://webprotege.stanford.edu/rgAbbreviation> "V" .
+<http://webprotege.stanford.edu/Vatikanregister> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "V" .
 <http://webprotege.stanford.edu/Vatikanregister> <http://www.w3.org/2000/01/rdf-schema#label> "Vatikanregister"@de .
 <http://webprotege.stanford.edu/Vatikanregister> <http://www.w3.org/2004/02/skos/core#altLabel> "Archivio Segreto Vaticano, Registra Vaticana" .
 <http://webprotege.stanford.edu/Vatikanregister> <http://www.w3.org/2004/02/skos/core#definition> "RG V, RG VI, RG VII, RG VIII, RG IX, RG X" .
@@ -945,7 +945,7 @@
 # http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4
 <http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://webprotege.stanford.edu/Dublin> .
-<http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://webprotege.stanford.edu/rgAbbreviation> "Dublin" .
+<http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://webprotege.stanford.edu/hat_bewilligte_Dauer> "Dublin" .
 <http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://www.w3.org/2000/01/rdf-schema#label> "Ms._1223_1_(Series)_vol._4"@de .
 <http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://www.w3.org/2004/02/skos/core#altLabel> "Dublin, Trinity College Library, Ms. 1223 1 (Series) vol. 4" .
 <http://webprotege.stanford.edu/Ms_1223_1_(Series)_vol_4> <http://www.w3.org/2004/02/skos/core#definition> "RG VIII" .
